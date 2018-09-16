@@ -85,7 +85,7 @@ date_default_timezone_set("Africa/Nairobi");
         <!-- Plugins -->
         <script src="web/js/scrollreveal.min.js"></script>
         <script src="web/js/parallax.min.js"></script>
-        <script src="http://maps.google.com/maps/api/js?key=YourApiKey"></script>
+        <script src="http://maps.google.com/maps/api/js?key=AIzaSyAh7IjQgbQ6Sqx1L6J0mO7_Zftl0gVKF9E"></script>
 	<script src="web/js/map-script.js"></script>
         <script src="web/js/waypoints.min.js"></script>
 	<script src="web/js/jquery.counterup.min.js"></script>

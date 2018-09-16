@@ -5,13 +5,13 @@
             <!-- ***** Home About Start ***** -->
             <div class="col-lg-5 col-md-12 col-sm-12 align-self-bottom">
                 <div class="left-heading">
-                    <h2 class="section-title">Start-to-end app development agency</h2>
+                    <h2 class="section-title">A simple, free solution</h2>
                 </div>
                 <div class="left-text">
-                    <p class="dark">Pellentesque posuere vestibulum lorem, ut efficitur erat tristique sed. Ut vitae tincidunt ante. </p>
-                    <p>Donec vulputate urna sed rutrum venenatis. Cras consequat magna quis arcu elementum, quis congue risus volutpat. Praesent tortor nulla, ullamcorper.</p>
+                    <p class="dark">We understand Micro-Finance[MFI], SACCOs and Chamaas.</p>
+                    <p>We are an end to end cloud-based solutions provider for transactional based business in MFIs, SACCOs and Chamaas.</p>
                 </div>
-                <a href="#" class="btn-primary-line">SERVICES</a>					
+                <a href="?features" class="btn-primary-line">FEATURES</a>					
             </div>
             <!-- ***** Home About End ***** -->
 
@@ -19,29 +19,30 @@
             <div class="offset-lg-1 col-lg-6 col-md-12 col-sm-12 align-self-bottom">
                 <div class="row">
                     <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
-                        <a href="services-single.html" class="home-services-item mtop-70" data-scroll-reveal="enter bottom move 30px over 0.6s after 0.2s">
+                        <a href="?cross_platform" class="home-services-item mtop-70" data-scroll-reveal="enter bottom move 30px over 0.6s after 0.2s">
                             <i class="fa fa-clone"></i>
-                            <h5 class="services-title">Mobility Services Strategy</h5>
-                            <p>Morbi pharetra sapien ut mattis viverra. Curabitur sit amet mattis.</p>
+                            <h5 class="services-title">Cross Platform</h5>
+                            <p>Staqpesa is accessible from all web-based computing and mobile devices. </p>
                         </a>
-                        <a href="services-single.html" class="home-services-item" data-scroll-reveal="enter bottom move 30px over 0.6s after 0.2s">
+                        <a href="?saas" class="home-services-item" data-scroll-reveal="enter bottom move 30px over 0.6s after 0.2s">
                             <i class="fa fa-connectdevelop"></i>
-                            <h5 class="services-title">Native App Development</h5>
-                            <p>Proin arcu ligula, malesuada id tincidunt laoreet, facilisis at justo.</p>
+                            <h5 class="services-title">SaaS</h5>
+                            <p>No need for infrastructural setup. Just subscribe to any of our affordable packages to use Staqpesa as a service. </p>
                         </a>
                     </div>
                     <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
-                        <a href="services-single.html" class="home-services-item active" data-scroll-reveal="enter bottom move 30px over 0.6s after 0.3s">
+                        <a href="?scalability" class="home-services-item active" data-scroll-reveal="enter bottom move 30px over 0.6s after 0.3s">
                             <i class="fa fa-object-ungroup"></i>
-                            <h5 class="services-title">Design & User Experience</h5>
-                            <p>Donec pellentesque turpis utium lorem imperdiet semper viverra.</p>
+                            <h5 class="services-title">Scalable</h5>
+                            <p>Staqpesa is easily customizable to suit your needs, enforce your unique by-laws, policies and regulations.</p>
                         </a>
-                        <a href="services-single.html" class="home-services-item" data-scroll-reveal="enter bottom move 30px over 0.6s after 0.3s">
+                        <a href="?reporting_analytics" class="home-services-item" data-scroll-reveal="enter bottom move 30px over 0.6s after 0.3s">
                             <i class="fa fa-line-chart"></i>
-                            <h5 class="services-title">Maintenance & Monitoring</h5>
-                            <p>Facilisis arcu ligula, malesuada id tincidunt laoreet, facilisis at justo.</p>
+                            <h5 class="services-title">Reporting and Analytics</h5>
+                            <p>Staqpesa generates and avails all the necessary reports and statements.</p>
                         </a>
                     </div>
+                    
                 </div>
             </div>
             <!-- ***** Home Services End ***** -->

@@ -11,21 +11,18 @@
             <div class="col-lg-2 col-md-4 col-sm-6 col-6">
                 <h5>Helpful Links</h5>
                 <ul class="footer-nav">
-                    <li><a href="#"><i class="fa fa-angle-right"></i><span>Our Work</span></a></li>
-                    <li><a href="#"><i class="fa fa-angle-right"></i><span>About Us</span></a></li>
-                    <li><a href="#"><i class="fa fa-angle-right"></i><span>Services</span></a></li>
-                    <li><a href="#"><i class="fa fa-angle-right"></i><span>Blog</span></a></li>
-                    <li><a href="#"><i class="fa fa-angle-right"></i><span>Contact</span></a></li>
+                    <li><a href="?packages"><i class="fa fa-angle-right"></i><span>Packages</span></a></li>
+                    <li><a href="?about_us"><i class="fa fa-angle-right"></i><span>About Us</span></a></li>
+                    <li><a href="?features"><i class="fa fa-angle-right"></i><span>Features</span></a></li>
+                    <li><a href="?blog"><i class="fa fa-angle-right"></i><span>Blog</span></a></li>
+                    <li><a href="?contact"><i class="fa fa-angle-right"></i><span>Contact</span></a></li>
                 </ul>
             </div>
             <div class="col-lg-2 col-md-4 col-sm-6 col-6">
-                <h5>Latest Apps</h5>
+                <h5>Explore Solutions</h5>
                 <ul class="footer-nav">
-                    <li><a href="#"><i class="fa fa-angle-right"></i><span>Dance School</span></a></li>
-                    <li><a href="#"><i class="fa fa-angle-right"></i><span>Coiner</span></a></li>
-                    <li><a href="#"><i class="fa fa-angle-right"></i><span>Cloud Manager</span></a></li>
-                    <li><a href="#"><i class="fa fa-angle-right"></i><span>Coding Life</span></a></li>
-                    <li><a href="#"><i class="fa fa-angle-right"></i><span>Smart Office</span></a></li>
+                    <li><a href="?chamaa"><i class="fa fa-angle-right"></i><span>Chamaa</span></a></li>
+                    <li><a href="?mfi"><i class="fa fa-angle-right"></i><span>Micro-Finance</span></a></li>
                 </ul>
             </div>
             <div class="col-lg-3 col-md-4 col-sm-12">

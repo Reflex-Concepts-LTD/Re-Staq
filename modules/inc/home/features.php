@@ -12,8 +12,8 @@
                             <span>1</span>
                         </div>
                         <div class="text">
-                            <h5 class="title">Design and UX that ensures your app will be loved and used</h5>
-                            <p>Quisque nec consectetur arcu. Duis tellus ante, sodales sed molestie at, sagittis id neque. Quisque condimentum libero arcu. Mauris tellus sem, ultrices varius nisl at.</p>
+                            <h5 class="title">Effective Monitoring & Control</h5>
+                            <p>Monitoring and control is seamless with the tools and configurations available to staqpesa certified businesses.</p>
                         </div>
                     </li>
                     <li data-scroll-reveal="enter bottom move 30px over 0.6s after 0.3s">
@@ -21,8 +21,8 @@
                             <span>2</span>
                         </div>
                         <div class="text">
-                            <h5 class="title">Enterprise-grade development secures reliability and quality</h5>
-                            <p>Praesent tortor nulla, ullamcorper vel ante at, varius tincidunt augue. Cras vitae consectetur arcu. Proin at velit vel risus elementum accumsan sed non neque. Aenean risus.</p>
+                            <h5 class="title">Standardized Account & Reporting</h5>
+                            <p>All accounts, reports and analysis on staqpesa are standardized to simplify the learning curve on the platform.</p>
                         </div>
                     </li>
                     <li data-scroll-reveal="enter bottom move 30px over 0.6s after 0.4s">
@@ -30,8 +30,8 @@
                             <span>3</span>
                         </div>
                         <div class="text">
-                            <h5 class="title">A proven and tested process guarantees your success</h5>
-                            <p>Aliquam bibendum velit ut ante cursus, et efficitur lectus rutrum. Maecenas ac convallis lorem, non ultricies sem. Duis elit metus, ullamcorper sed ante sed, viverra bibendum neque.</p>
+                            <h5 class="title">Enforce Internal Policies & Control</h5>
+                            <p>Each institution and/or table-banking group has its own rule and policies. This include interests, contributions, loaning and repayment period. Staqpesa is set up to fit all scenarios.</p>
                         </div>
                     </li>
                     <li data-scroll-reveal="enter bottom move 30px over 0.6s after 0.5s">
@@ -39,8 +39,8 @@
                             <span>4</span>
                         </div>
                         <div class="text">
-                            <h5 class="title">Start-to-end app development agency</h5>
-                            <p>Cras imperdiet faucibus sem, a dignissim urna feugiat sed. Interdum et malesuada fames ac ante ipsum primis in faucibus. Pellentesque posuere vestibulum lorem.</p>
+                            <h5 class="title">Effectively Manage Loan Application Processes</h5>
+                            <p>Managing your loaning processes is important. Staqpesa's policy building tools enable effective processes.</p>
                         </div>
                     </li>
                 </ul>
