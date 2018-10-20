@@ -3,7 +3,7 @@
     <div class="container">
         <div class="row">
             <div class="col-lg-5 col-md-12 col-sm-12 col-xs-12 align-self-center">
-                <img src="images/mockup/home-mockup.png" class="img-fluid d-block mx-auto" alt="">
+                <img src="images/mockup/home-mockup.jpg" class="img-fluid d-block mx-auto" alt="">
             </div>
             <div class="col-lg-7 col-md-12 col-sm-12 col-xs-12 align-self-center">
                 <ul class="features">

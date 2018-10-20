@@ -26,7 +26,7 @@
                 <div class="col-lg-12">
                     <p>Proin pellentesque quam at quam aliquet, eget mattis quam euismod. Curabitur imperdiet suscipit facilisis. Maecenas diam quam, sodales eu est eu, posuere ultricies augue. Sed rhoncus facilisis risus, nec sagittis dui luctus in. Nunc eget ante odio. Suspendisse eu diam ut nisi ullamcorper interdum. Pellentesque sit amet quam risus.</p>
                     <!-- ***** Gallery Start ***** -->
-                    <div class="row page-gallery-wrapper">
+<!--                    <div class="row page-gallery-wrapper">
                         <div class="col-lg-4 col-md-4 col-sm-12">
                             <a href="images/photos/about/1.jpg" class="page-gallery" title="About Us">
                                 <img src="images/photos/about/1.jpg" alt="">
@@ -51,7 +51,7 @@
                                 <img src="images/photos/about/4.jpg" alt="">
                             </a>
                         </div>
-                    </div>
+                    </div>-->
                     <!-- ***** Gallery End ***** -->
                     <p>Quisque quis faucibus tellus, non tincidunt urna. Pellentesque faucibus aliquet mi, id efficitur nisl aliquam at. Phasellus volutpat lobortis consectetur. Duis efficitur iaculis ipsum ut sodales. Phasellus suscipit lectus eget sapien accumsan, vitae auctor magna suscipit. Ut sagittis mauris auctor dictum feugiat. Duis lectus neque, aliquet quis justo euismod, rutrum vehicula felis. In luctus dui nec pretium gravida. In mauris lorem, accumsan sit amet lacinia non, auctor id dui. </p>
                 </div>
@@ -62,24 +62,24 @@
 </section>
 
 <!-- ***** Parallax Start ***** -->
-<section class="parallax">
+<!--<section class="parallax">
     <div class="parallax-content">
         <div class="container">
             <div class="row">
                 <div class="col-lg-12">
                     <div class="info">
-                        <p>We design and develop <span>mobile apps</span> that delight your users and grow your business.</p>
+                        <p></p>
                         <a class="btn-white-line" href="#">Contact Us</a>
                     </div>
                 </div>
             </div>
         </div>
     </div>
-</section>
+</section>-->
 <!-- ***** Parallax End ***** -->
 
 <!-- ***** Our Team Start ***** -->
-<section class="section pbottom-70">
+<!--<section class="section pbottom-70">
     <div class="container">
         <div class="row">
             <div class="col-lg-12">
@@ -184,5 +184,5 @@
             </div>
         </div>
     </div>
-</section>
+</section>-->
 <!-- ***** Our Team End ***** -->

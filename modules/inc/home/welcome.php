@@ -16,7 +16,7 @@
                         while still enabling its growth and sustainability.
 <!--                        <a class="btn-white-line" href="?our_work">View All</a>-->
                 </div>
-                <div class="offset-lg-1 col-lg-5 col-md-12 col-sm-12 col-xs-12 align-self-center">
+<!--                <div class="offset-lg-1 col-lg-5 col-md-12 col-sm-12 col-xs-12 align-self-center">
                     <div class="apps">
                         <div class="container-fluid">
                             <div class="row">
@@ -79,7 +79,7 @@
                             </div>
                         </div>
                     </div>
-                </div>
+                </div>-->
             </div>
         </div>
     </div>

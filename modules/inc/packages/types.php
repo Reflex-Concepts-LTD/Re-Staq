@@ -6,7 +6,7 @@
             <div class="col-lg-4 col-md-6 col-sm-12">
                 <div class="page-app">
                     <div class="icon">
-                        <img src="images/icons/apps/1.png" alt="">
+                        <img src="images/icons/apps/excite.png" alt="">
                     </div>
                     <div class="app-content">
                         <h5 class="title">Excite</h5>
@@ -31,7 +31,7 @@
             <div class="col-lg-4 col-md-6 col-sm-12">
                 <div class="page-app">
                     <div class="icon">
-                        <img src="images/icons/apps/2.png" alt="">
+                        <img src="images/icons/apps/metro.png" alt="">
                     </div>
                     <div class="app-content">
                         <h5 class="title">Metro</h5>
@@ -56,7 +56,7 @@
             <div class="col-lg-4 col-md-6 col-sm-12">
                 <div class="page-app">
                     <div class="icon">
-                        <img src="images/icons/apps/3.png" alt="">
+                        <img src="images/icons/apps/pro.png" alt="">
                     </div>
                     <div class="app-content">
                         <h5 class="title">StaqPro</h5>
