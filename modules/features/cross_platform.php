@@ -27,27 +27,27 @@
                 <!-- ***** Content Start ***** -->
                 <div class="col-lg-8 col-md-12 col-sm-12">
                     <!-- ***** Gallery Start ***** -->
-                    <div class="row page-gallery-wrapper">
+<!--                    <div class="row page-gallery-wrapper">
                         <div class="col-lg-6 col-md-8 col-sm-12">
                             <div class="row">
                                 <div class="col-lg-12 col-md-6">
-                                    <a href="images/photos/features/cross_platform.jpg" class="page-gallery small" title="Mobile">
-                                        <img src="images/photos/features/cross_platformjpg" alt="">
+                                    <a href="images/photos/features/cross_platform1.jpg" class="page-gallery small" title="Mobile">
+                                        <img src="images/photos/features/cross_platform1.jpg" alt="">
                                     </a>
                                 </div>
                                 <div class="col-lg-12 col-md-6">
-                                    <a href="images/photos/features/cross_platform.jpg" class="page-gallery small" title="Desktop">
-                                        <img src="images/photos/features/cross_platform.jpg" alt="">
+                                    <a href="images/photos/features/cross_platform2.jpg" class="page-gallery small" title="Desktop">
+                                        <img src="images/photos/features/cross_platform2.jpg" alt="">
                                     </a>
                                 </div>
                             </div>
                         </div>
                         <div class="col-lg-6 col-md-4 col-sm-12">
-                            <a href="images/photos/features/cross_platform.jpg" class="page-gallery" title="Tablets">
-                                <img src="images/photos/features/cross_platform.jpg" alt="">
+                            <a href="images/photos/features/cross_platform3.jpg" class="page-gallery" title="Tablets">
+                                <img src="images/photos/features/cross_platform3.jpg" alt="">
                             </a>
                         </div>
-                    </div>
+                    </div>-->
                     <!-- ***** Gallery End ***** -->
 
                     <p>Proin pellentesque quam at quam aliquet, eget mattis quam euismod. Curabitur imperdiet suscipit facilisis. Maecenas diam quam, sodales eu est eu, posuere ultricies augue. </p>

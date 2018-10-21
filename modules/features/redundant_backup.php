@@ -27,7 +27,7 @@
                 <!-- ***** Content Start ***** -->
                 <div class="col-lg-8 col-md-12 col-sm-12">
                     <!-- ***** Gallery Start ***** -->
-                    <div class="row page-gallery-wrapper">
+<!--                    <div class="row page-gallery-wrapper">
                         <div class="col-lg-6 col-md-8 col-sm-12">
                             <div class="row">
                                 <div class="col-lg-12 col-md-6">
@@ -47,7 +47,7 @@
                                 <img src="images/photos/features/cross_platform.jpg" alt="">
                             </a>
                         </div>
-                    </div>
+                    </div>-->
                     <!-- ***** Gallery End ***** -->
 
                     <p>Proin pellentesque quam at quam aliquet, eget mattis quam euismod. Curabitur imperdiet suscipit facilisis. Maecenas diam quam, sodales eu est eu, posuere ultricies augue. </p>

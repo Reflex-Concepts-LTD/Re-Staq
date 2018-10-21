@@ -31,7 +31,7 @@
                             <div class="row">
                                 <div class="col-lg-1 col-md-2 col-sm-12">
                                     <div class="icon">
-                                        <img src="images/icons/apps/1.png" class="img-fluid" alt="">
+                                        <img src="images/icons/apps/excite.png" class="img-fluid" alt="">
                                     </div>
                                 </div>
                                 <div class="col-lg-5 col-md-4 col-sm-12">

@@ -16,9 +16,7 @@
                 <li><a href="?payment_gateway">Payment Gateway Integration</a></li>
             </ul>
             <div class="home-services-item box active">
-                <h5 class="services-title">Tell us about your projects and we’ll 
-                    get back to you with details on how we can make this work. 
-                    Or just ask us anything mobile.</h5>
+                <h5 class="services-title">Staqpesa an innovation of a deep collaboration between the community and zealous developers.</h5>
                 <a class="btn-white-line" href="?contact">Contact Us</a>
             </div>
         </div>

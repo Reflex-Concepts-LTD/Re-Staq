@@ -17,7 +17,7 @@
                         <li><a href="?packages">PACKAGES</a></li>
                         <li><a href="?about_us">ABOUT US</a></li>
                         <li><a href="?features">FEATURES</a></li>
-                        <li><a href="?blog">BLOG</a></li>
+                        <!--<li><a href="?blog">BLOG</a></li>-->
                         <li><a href="?contact" class="btn-nav-line">CONTACT</a></li>
                     </ul>
                     <a class='menu-trigger'>
