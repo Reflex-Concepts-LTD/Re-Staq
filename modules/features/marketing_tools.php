@@ -46,8 +46,8 @@
                             <a href="images/photos/features/cross_platform.jpg" class="page-gallery" title="Tablets">
                                 <img src="images/photos/features/cross_platform.jpg" alt="">
                             </a>
-                        </div>-->
-                    </div>
+                        </div>
+                    </div>-->
                     <!-- ***** Gallery End ***** -->
 
                     <p>Proin pellentesque quam at quam aliquet, eget mattis quam euismod. Curabitur imperdiet suscipit facilisis. Maecenas diam quam, sodales eu est eu, posuere ultricies augue. </p>
