@@ -24,7 +24,7 @@
                     <li><a href="?app_excite"><i class="fa fa-angle-right"></i><span>Chamaa</span></a></li>
                     <li><a href="?app_metro"><i class="fa fa-angle-right"></i><span>Micro-Finance</span></a></li>
                     <li><a href="?app_staqpro"><i class="fa fa-angle-right"></i><span>Sacco</span></a></li>
-                    <li><a href="?instituion_registration"><i class="fa fa-angle-right"></i><span>Subscribe</span></a></li>
+                    <li><a href="?institution_registration"><i class="fa fa-angle-right"></i><span>Subscribe</span></a></li>
                 </ul>
             </div>
             <div class="col-lg-3 col-md-4 col-sm-12">
