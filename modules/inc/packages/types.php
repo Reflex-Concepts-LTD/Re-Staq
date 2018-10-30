@@ -9,7 +9,7 @@
                         <img src="images/icons/apps/excite.png" alt="">
                     </div>
                     <div class="app-content">
-                        <h5 class="title">Excite</h5>
+                        <h5 class="title">Excite Pack</h5>
                         <ul class="stars">
                             <li><i class="fa fa-star active"></i></li>
                             <li><i class="fa fa-star active"></i></li>
@@ -19,9 +19,13 @@
                             <li>(144)</li>
                         </ul>
                         <div class="text">
-                            Facilisis arcu ligula, malesuada id tincidunt laoreet, facilisis at justo id tincidunt.
+                            Members : 1-20  <br />
+                            Free SMS Package: 100   <br />
+                            Available Modules: All Modules <br />
+                            Monthly Fee: FREE
                         </div>
-                        <a href="?app_excite" class="btn-primary-line">Packages Details</a>
+                        <a href="?app_excite" class="btn-primary-line">Package Details</a><br />
+                        <a href="?instituion_registration" class="btn-primary-line">Subscribe</a>
                     </div>
                 </div>
             </div>
@@ -34,7 +38,7 @@
                         <img src="images/icons/apps/metro.png" alt="">
                     </div>
                     <div class="app-content">
-                        <h5 class="title">Metro</h5>
+                        <h5 class="title">Metro Pack</h5>
                         <ul class="stars">
                             <li><i class="fa fa-star active"></i></li>
                             <li><i class="fa fa-star active"></i></li>
@@ -44,9 +48,13 @@
                             <li>(73)</li>
                         </ul>
                         <div class="text">
-                            Facilisis arcu ligula, malesuada id tincidunt laoreet, facilisis at justo id tincidunt.
+                            Members : 21-100  <br />
+                            Free SMS Package: 200   <br />
+                            Available Modules: All Modules <br />
+                            Monthly Fee: KSH. 1000
                         </div>
-                        <a href="?app_metro" class="btn-primary-line">Packages Details</a>
+                        <a href="?app_metro" class="btn-primary-line">Package Details</a><br />
+                        <a href="?instituion_registration" class="btn-primary-line">Subscribe</a>
                     </div>
                 </div>
             </div>
@@ -59,7 +67,7 @@
                         <img src="images/icons/apps/pro.png" alt="">
                     </div>
                     <div class="app-content">
-                        <h5 class="title">StaqPro</h5>
+                        <h5 class="title">StaqPro Pack</h5>
                         <ul class="stars">
                             <li><i class="fa fa-star active"></i></li>
                             <li><i class="fa fa-star active"></i></li>
@@ -69,9 +77,13 @@
                             <li>(288)</li>
                         </ul>
                         <div class="text">
-                            Facilisis arcu ligula, malesuada id tincidunt laoreet, facilisis at justo id tincidunt.
+                            Members : Over 100  <br />
+                            Free SMS Package: 500   <br />
+                            Available Modules: All Modules <br />
+                            Monthly Fee: KSH. 3000
                         </div>
-                        <a href="?app_staqpro" class="btn-primary-line">Packages Details</a>
+                        <a href="?app_staqpro" class="btn-primary-line">Package Details</a><br />
+                        <a href="?instituion_registration" class="btn-primary-line">Subscribe</a>
                     </div>
                 </div>
             </div>

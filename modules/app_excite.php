@@ -45,14 +45,15 @@
                                             <li><i class="fa fa-star"></i></li>
                                             <li>(144)</li>
                                         </ul>
+                                        <a href="?instituion_registration" class="btn-primary-line">Subscribe</a>
                                     </div>
                                 </div>
-<!--                                <div class="col-lg-6 col-md-6 col-sm-12">
-                                    <div class="download-buttons">
-                                        <a href="#"><img src="images/download-apple-store.svg" alt=""></a>
-                                        <a href="#"><img src="images/download-google-play.svg" alt=""></a>
-                                    </div>
-                                </div>-->
+                                <!--                                <div class="col-lg-6 col-md-6 col-sm-12">
+                                                                    <div class="download-buttons">
+                                                                        <a href="#"><img src="images/download-apple-store.svg" alt=""></a>
+                                                                        <a href="#"><img src="images/download-google-play.svg" alt=""></a>
+                                                                    </div>
+                                                                </div>-->
                             </div>
                         </div>
                         <!-- ***** App Header End ***** -->
@@ -65,44 +66,44 @@
                             <div class="content">
                                 <h5 class="title">Description</h5>
                                 <div class="text">
-                                    <p>Donec cursus, tortor vel efficitur finibus, velit nisl iaculis lorem, a rhoncus erat risus id massa. Nulla blandit, eros a pretium malesuada, quam elit pretium nunc, eget placerat ligula quam eget urna. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.</p>
-                                    <p>Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Fusce egestas nisi mauris, mattis mollis nisl malesuada ac. Ut feugiat, velit ac dictum tempor, nibh massa porttitor enim, vel accumsan nunc ligula eu eros. Vivamus ut mauris consectetur, porta quam eget, placerat urna.</p>
+                                    <p>This package is perfect for the small groups (family groups, work colleagues) with a table-banking kind of setup. It is specially designed to ensure that this group 
+                                        of users navigate through this formative stage of the group and is able to operate optimally despite the lean membership.</p>
                                 </div>
                             </div>
                         </div>
                         <!-- ***** App Description End ***** -->
 
                         <!-- ***** Screenshot Start ***** -->
-<!--                        <div class="item">
-                            <div class="icon">
-                                <i class="fa fa-file-image-o"></i>
-                            </div>
-                            <div class="content">
-                                <h5 class="title">Screenshots</h5>
-                                <div class="row gallery">
-                                    <div class="col-lg-3 col-md-6 col-sm-6 col-xs-12">
-                                        <a class="gallery-item" href="images/mockup/1.jpg" title="Screenshot 1">
-                                            <img src="images/mockup/1.jpg" class="img-fluid" alt="">
-                                        </a>
-                                    </div>
-                                    <div class="col-lg-3 col-md-6 col-sm-6 col-xs-12">
-                                        <a class="gallery-item" href="images/mockup/2.jpg" title="Screenshot 2">
-                                            <img src="images/mockup/2.jpg" class="img-fluid" alt="">
-                                        </a>
-                                    </div>
-                                    <div class="col-lg-3 col-md-6 col-sm-6 col-xs-12">
-                                        <a class="gallery-item" href="images/mockup/3.jpg" title="Screenshot 3">
-                                            <img src="images/mockup/3.jpg" class="img-fluid" alt="">
-                                        </a>
-                                    </div>
-                                    <div class="col-lg-3 col-md-6 col-sm-6 col-xs-12">
-                                        <a class="gallery-item" href="images/mockup/4.jpg" title="Screenshot 4">
-                                            <img src="images/mockup/4.jpg" class="img-fluid" alt="">
-                                        </a>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>-->
+                        <!--                        <div class="item">
+                                                    <div class="icon">
+                                                        <i class="fa fa-file-image-o"></i>
+                                                    </div>
+                                                    <div class="content">
+                                                        <h5 class="title">Screenshots</h5>
+                                                        <div class="row gallery">
+                                                            <div class="col-lg-3 col-md-6 col-sm-6 col-xs-12">
+                                                                <a class="gallery-item" href="images/mockup/1.jpg" title="Screenshot 1">
+                                                                    <img src="images/mockup/1.jpg" class="img-fluid" alt="">
+                                                                </a>
+                                                            </div>
+                                                            <div class="col-lg-3 col-md-6 col-sm-6 col-xs-12">
+                                                                <a class="gallery-item" href="images/mockup/2.jpg" title="Screenshot 2">
+                                                                    <img src="images/mockup/2.jpg" class="img-fluid" alt="">
+                                                                </a>
+                                                            </div>
+                                                            <div class="col-lg-3 col-md-6 col-sm-6 col-xs-12">
+                                                                <a class="gallery-item" href="images/mockup/3.jpg" title="Screenshot 3">
+                                                                    <img src="images/mockup/3.jpg" class="img-fluid" alt="">
+                                                                </a>
+                                                            </div>
+                                                            <div class="col-lg-3 col-md-6 col-sm-6 col-xs-12">
+                                                                <a class="gallery-item" href="images/mockup/4.jpg" title="Screenshot 4">
+                                                                    <img src="images/mockup/4.jpg" class="img-fluid" alt="">
+                                                                </a>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>-->
                         <!-- ***** Screenshot End ***** -->
 
                         <!-- ***** Version History Start ***** -->
@@ -114,30 +115,37 @@
                                 <h5 class="title">Major Features</h5>
                                 <div class="text">
                                     <div class="version">
-                                        <h6>Accounting</h6>
+                                        <h6>Cross platform access</h6>
                                         <ul>
-                                            <li>A major improvement to Inbox that will be rolled out in phases.</li>
-                                            <li>When you add a mail to a Connected App, it will also have a link to open the conversation in Newton on any device.</li>
-                                            <li>Notifications will be cleared for emails that are read in the app.</li>
+                                            <li>Staqpesa is accessible from all web-based computing and mobile devices. It also supports exporting and importing of data in 
+                                                most common document formats. With our round-the-clock support and the solution’s user-friendly interface, we guarantee you 
+                                                smooth transition to harnessing the power of Staqpesa.</li>
                                         </ul>
                                     </div>
                                     <div class="version">
-                                        <h6>Loans/Contributions</h6>
+                                        <h6>Staqpesa Software as a Service (SaaS)</h6>
                                         <ul>
-                                            <li>Tidy Inbox bugs are fixed. You can now archive mails from Low Priority folders in Gmail accounts.</li>
-                                            <li>Fixed crashes and squashed some annoying bugs.</li>
-                                            <li>The Paper Plane now has the thrust to take you to the next orbit.</li>
+                                            <li>No need for infrastructural setup. Just subscribe to any of our affordable packages to use Staqpesa as a service. Enjoy all 
+                                                Staqpesa features with guaranteed excellent support and updates at no overhead installation costs. All you need is an 
+                                                internet connection and any acceptable endpoint device.</li>
                                         </ul>
                                     </div>
                                     <div class="version">
-                                        <h6>Reports</h6>
+                                        <h6>Redundant Backup</h6>
                                         <ul>
-                                            <li>Disable signature for reply. The first reply will have the signature however, you can choose to disable it for subsequent replies</li>
-                                            <li>Fixed connection issue in iPhone where new emails were not showing until the app was killed.</li>
-                                            <li>Issues with replying to an email that has more than 30 inline attachments. Fixed.</li>
+                                            <li>With Staqpesa, your data is 100% safe. We ensure your sensitive data is encrypted and intruders cannot make sense of the 
+                                                data without the Staqpesa installation. Your data is also redundantly backed up.</li>
+                                        </ul>
+                                    </div>
+                                    <div class="version">
+                                        <h6>Reporting and Analytics</h6>
+                                        <ul>
+                                            <li>Staqpesa generates and avails all the necessary reports and statements. These are summarized into a dashboard and can also 
+                                                be exported to other third-party software applications such as excel and pdf.</li>                                            
                                         </ul>
                                     </div>
                                 </div>
+                                <a href="?instituion_registration" class="btn-primary-line">Subscribe</a>
                             </div>
                         </div>
                         <!-- ***** Version History End ***** -->

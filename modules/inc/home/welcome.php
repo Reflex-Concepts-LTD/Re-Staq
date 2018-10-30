@@ -11,9 +11,8 @@
         <div class="container">
             <div class="row">
                 <div class="col-lg-6 col-md-12 col-sm-12 col-xs-12 align-self-center">
-                    <h1>Staqpesa, is a cloud-based SaaS</h1>
-                    <p>That's why we know you will love our integrated, transparent, accounting solution just fit for your chamaa, micro-finance and SACCO, 
-                        while still enabling its growth and sustainability.
+                    <h1>Staqpesa, is a cloud-based software as a service (SaaS) platform</h1>
+                    <p>That's why we know you will love our integrated and transparent accounting solution just fit for your chamaa, micro-finance or SACCO. Staqpesa is enabling the growth and sustainability of these entities across Africa.
 <!--                        <a class="btn-white-line" href="?our_work">View All</a>-->
                 </div>
 <!--                <div class="offset-lg-1 col-lg-5 col-md-12 col-sm-12 col-xs-12 align-self-center">

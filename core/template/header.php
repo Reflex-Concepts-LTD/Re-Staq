@@ -14,9 +14,11 @@
                     <!-- ***** Menu Start ***** -->
                     <ul class="nav">
                         <li><a href="?">HOME</a></li>
-                        <li><a href="?packages">PACKAGES</a></li>
-                        <li><a href="?about_us">ABOUT US</a></li>
                         <li><a href="?features">FEATURES</a></li>
+                        <li><a href="?packages">PACKAGES</a></li>
+                        <li><a href="?partners">PARTNERS</a></li><br />
+                        <li><a href="?instituion_registration">JOIN US</a></li>
+<!--                        <li><a href="?about_us">ABOUT US</a></li>-->
                         <!--<li><a href="?blog">BLOG</a></li>-->
                         <li><a href="?contact" class="btn-nav-line">CONTACT</a></li>
                     </ul>

@@ -43,16 +43,17 @@
                                             <li><i class="fa fa-star active"></i></li>
                                             <li><i class="fa fa-star"></i></li>
                                             <li><i class="fa fa-star"></i></li>
-                                            <li>(144)</li>
+                                            <li>(8)</li>
                                         </ul>
+                                        <a href="?instituion_registration" class="btn-primary-line">Subscribe</a>
                                     </div>
                                 </div>
-<!--                                <div class="col-lg-6 col-md-6 col-sm-12">
-                                    <div class="download-buttons">
-                                        <a href="#"><img src="images/download-apple-store.svg" alt=""></a>
-                                        <a href="#"><img src="images/download-google-play.svg" alt=""></a>
-                                    </div>
-                                </div>-->
+                                <!--                                <div class="col-lg-6 col-md-6 col-sm-12">
+                                                                    <div class="download-buttons">
+                                                                        <a href="#"><img src="images/download-apple-store.svg" alt=""></a>
+                                                                        <a href="#"><img src="images/download-google-play.svg" alt=""></a>
+                                                                    </div>
+                                                                </div>-->
                             </div>
                         </div>
                         <!-- ***** App Header End ***** -->
@@ -65,44 +66,45 @@
                             <div class="content">
                                 <h5 class="title">Description</h5>
                                 <div class="text">
-                                    <p>Donec cursus, tortor vel efficitur finibus, velit nisl iaculis lorem, a rhoncus erat risus id massa. Nulla blandit, eros a pretium malesuada, quam elit pretium nunc, eget placerat ligula quam eget urna. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.</p>
-                                    <p>Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Fusce egestas nisi mauris, mattis mollis nisl malesuada ac. Ut feugiat, velit ac dictum tempor, nibh massa porttitor enim, vel accumsan nunc ligula eu eros. Vivamus ut mauris consectetur, porta quam eget, placerat urna.</p>
+                                    <p>Are you an established SACCO or micro-finance institution (MFI)? Then this is the perfect package for you. 
+                                        It is specially designed to ensure that all the activities of these institutions are effectively monitored & controlled while at 
+                                        the same time the accounting and reporting processes are standardized across the organization.</p>
                                 </div>
                             </div>
                         </div>
                         <!-- ***** App Description End ***** -->
 
                         <!-- ***** Screenshot Start ***** -->
-<!--                        <div class="item">
-                            <div class="icon">
-                                <i class="fa fa-file-image-o"></i>
-                            </div>
-                            <div class="content">
-                                <h5 class="title">Screenshots</h5>
-                                <div class="row gallery">
-                                    <div class="col-lg-3 col-md-6 col-sm-6 col-xs-12">
-                                        <a class="gallery-item" href="images/mockup/1.jpg" title="Screenshot 1">
-                                            <img src="images/mockup/1.jpg" class="img-fluid" alt="">
-                                        </a>
-                                    </div>
-                                    <div class="col-lg-3 col-md-6 col-sm-6 col-xs-12">
-                                        <a class="gallery-item" href="images/mockup/2.jpg" title="Screenshot 2">
-                                            <img src="images/mockup/2.jpg" class="img-fluid" alt="">
-                                        </a>
-                                    </div>
-                                    <div class="col-lg-3 col-md-6 col-sm-6 col-xs-12">
-                                        <a class="gallery-item" href="images/mockup/3.jpg" title="Screenshot 3">
-                                            <img src="images/mockup/3.jpg" class="img-fluid" alt="">
-                                        </a>
-                                    </div>
-                                    <div class="col-lg-3 col-md-6 col-sm-6 col-xs-12">
-                                        <a class="gallery-item" href="images/mockup/4.jpg" title="Screenshot 4">
-                                            <img src="images/mockup/4.jpg" class="img-fluid" alt="">
-                                        </a>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>-->
+                        <!--                        <div class="item">
+                                                    <div class="icon">
+                                                        <i class="fa fa-file-image-o"></i>
+                                                    </div>
+                                                    <div class="content">
+                                                        <h5 class="title">Screenshots</h5>
+                                                        <div class="row gallery">
+                                                            <div class="col-lg-3 col-md-6 col-sm-6 col-xs-12">
+                                                                <a class="gallery-item" href="images/mockup/1.jpg" title="Screenshot 1">
+                                                                    <img src="images/mockup/1.jpg" class="img-fluid" alt="">
+                                                                </a>
+                                                            </div>
+                                                            <div class="col-lg-3 col-md-6 col-sm-6 col-xs-12">
+                                                                <a class="gallery-item" href="images/mockup/2.jpg" title="Screenshot 2">
+                                                                    <img src="images/mockup/2.jpg" class="img-fluid" alt="">
+                                                                </a>
+                                                            </div>
+                                                            <div class="col-lg-3 col-md-6 col-sm-6 col-xs-12">
+                                                                <a class="gallery-item" href="images/mockup/3.jpg" title="Screenshot 3">
+                                                                    <img src="images/mockup/3.jpg" class="img-fluid" alt="">
+                                                                </a>
+                                                            </div>
+                                                            <div class="col-lg-3 col-md-6 col-sm-6 col-xs-12">
+                                                                <a class="gallery-item" href="images/mockup/4.jpg" title="Screenshot 4">
+                                                                    <img src="images/mockup/4.jpg" class="img-fluid" alt="">
+                                                                </a>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>-->
                         <!-- ***** Screenshot End ***** -->
 
                         <!-- ***** Version History Start ***** -->
@@ -114,30 +116,38 @@
                                 <h5 class="title">Major Features</h5>
                                 <div class="text">
                                     <div class="version">
-                                        <h6>Accounting</h6>
+                                        <h6>Users/Personnel management</h6>
                                         <ul>
-                                            <li>A major improvement to Inbox that will be rolled out in phases.</li>
-                                            <li>When you add a mail to a Connected App, it will also have a link to open the conversation in Newton on any device.</li>
-                                            <li>Notifications will be cleared for emails that are read in the app.</li>
+                                            <li>Users must be authenticated before they can access the system. Staqpesa allows SACCOs & MFIs 
+                                                to know their clients by capturing, processing & analyzing their bio data. Clients can be analyzed in multidimensional 
+                                                attributes. This facilitates targeted campaigning/communication.</li>
                                         </ul>
                                     </div>
                                     <div class="version">
-                                        <h6>Loans/Contributions</h6>
+                                        <h6>Loans (Back-Office) Management</h6>
                                         <ul>
-                                            <li>Tidy Inbox bugs are fixed. You can now archive mails from Low Priority folders in Gmail accounts.</li>
-                                            <li>Fixed crashes and squashed some annoying bugs.</li>
-                                            <li>The Paper Plane now has the thrust to take you to the next orbit.</li>
+                                            <li>Staqpesa supports multiple loan products (both reducing balance interest based, straight line interest based) as well as 
+                                                their defined parameters. It supports in depth credit scoring and loan appraisal through guarantor management and automated 
+                                                disbursement. It helps track loan defaulters, write-offs & other general loan aspects as it may be necessary. The 
+                                                integrated email and SMS alerts help easen the debt collection process.</li>
                                         </ul>
                                     </div>
                                     <div class="version">
-                                        <h6>Reports</h6>
+                                        <h6>Payment Gateways Integration</h6>
                                         <ul>
-                                            <li>Disable signature for reply. The first reply will have the signature however, you can choose to disable it for subsequent replies</li>
-                                            <li>Fixed connection issue in iPhone where new emails were not showing until the app was killed.</li>
-                                            <li>Issues with replying to an email that has more than 30 inline attachments. Fixed.</li>
+                                            <li>Staqpesa is readily integrated with a number of the locally available third-party payment gateways: mobile money, banks</li>
+                                        </ul>
+                                    </div>
+                                    <div class="version">
+                                        <h6>Integrated marketing tools</h6>
+                                        <ul>
+                                            <li>Staqpesa has onboard tools to complement organizational marketing efforts. This is primarily achieved through SMS and 
+                                                email campaigns and notifications. It is also integrated with social media platforms and can interlinked with the 
+                                                organization’s website.</li>
                                         </ul>
                                     </div>
                                 </div>
+                                <a href="?instituion_registration" class="btn-primary-line">Subscribe</a>
                             </div>
                         </div>
                         <!-- ***** Version History End ***** -->

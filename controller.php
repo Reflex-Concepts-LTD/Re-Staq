@@ -29,6 +29,9 @@ else if (is_menu_set('dashboard') != "") {
 } else if (is_menu_set('blog') != "") {
     $currentPage = WPATH . "modules/blog.php";
     set_title("staqpesa - Our Blog");
+} else if (is_menu_set('partners') != "") {
+    $currentPage = WPATH . "modules/partners.php";
+    set_title("staqpesa - Our Partners");
 } else if (is_menu_set('contact') != "") {
     $currentPage = WPATH . "modules/contact.php";
     set_title("staqpesa - Contact Us");

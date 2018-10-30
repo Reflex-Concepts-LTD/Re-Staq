@@ -8,8 +8,8 @@
                     <h2 class="section-title">A simple, free solution</h2>
                 </div>
                 <div class="left-text">
-                    <p class="dark">We understand Micro-Finance[MFI], SACCOs and Chamaas.</p>
-                    <p>We are an end to end cloud-based solutions provider for transactional based business in MFIs, SACCOs and Chamaas.</p>
+                    <p class="dark">We understand your Micro-Finance Institution[MFI] / SACCO / Chamaa's language.</p>
+                    <p>Staqpesa offers an all-in-one package to help automate your organization's operations. Please <a href="?contact">talk to us</a>.</p>
                 </div>
                 <a href="?features" class="btn-primary-line">FEATURES</a>					
             </div>
