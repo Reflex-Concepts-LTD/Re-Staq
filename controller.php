@@ -11,7 +11,10 @@ else if (is_menu_set('dashboard') != "") {
 } else if (is_menu_set('home') != "") {
     $currentPage = WPATH . "modules/home.php";
     set_title("staqpesa - an integrated, transparent, accounting solution for chamaas.");
-}else if (is_menu_set('about_us') != "") {
+} else if (is_menu_set('add_institution') != "") {
+    $currentPage = WPATH . "modules/add_institution.php";
+    set_title("staqpesa - Add Institution.");
+} else if (is_menu_set('about_us') != "") {
     $currentPage = WPATH . "modules/about_us.php";
     set_title("staqpesa - About Us");
 } else if (is_menu_set('app_staqpro') != "") {
