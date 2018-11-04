@@ -45,7 +45,7 @@
                                             <li><i class="fa fa-star"></i></li>
                                             <li>(8)</li>
                                         </ul>
-                                        <a href="?institution_registration" class="btn-primary-line">Subscribe</a>
+                                        <a href="?institution_self_registration" class="btn-primary-line">Subscribe</a>
                                     </div>
                                 </div>
                                 <!--                                <div class="col-lg-6 col-md-6 col-sm-12">
@@ -147,7 +147,7 @@
                                         </ul>
                                     </div>
                                 </div>
-                                <a href="?institution_registration" class="btn-primary-line">Subscribe</a>
+                                <a href="?institution_self_registration" class="btn-primary-line">Subscribe</a>
                             </div>
                         </div>
                         <!-- ***** Version History End ***** -->
