@@ -32,7 +32,7 @@
                 <div class="address">
                     <p>1st Flr, Rentford Hse<br>Muindi Mbingu St. NRB, KE</p>
                     <p>Phone: (+254) 736249665</p>
-                    <p><span>E-Mail:</span><a href="mailto:hello@reflexconcepts.co.ke">hello@reflexconcepts.co.ke</a></p>
+                    <p><span>E-Mail:</span><a href="mailto:jenga@staqpesa.com">jenga@staqpesa.com</a></p>
                     <ul class="social">
                         <li><a href="#"><i class="fa fa-facebook-square"></i></a></li>
                         <li><a href="#"><i class="fa fa-twitter-square"></i></a></li>
