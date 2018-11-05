@@ -37,6 +37,21 @@ class System_Administration extends Database {
         curl_close($curl_session);
         return $response;
     }
+    
+    public function checkIfEmailExists($email) {
+        $data['request_type'] = 'check_if_email_exists';
+        $data['email'] = $email;
+        $data_string = http_build_query($data);
+        $process_request = $this->sendHttpRequestPost($data_string);
+        $decoded_response = json_decode($process_request, true);
+        $status = $decoded_response['status'];
+        $info = $decoded_response['message'];
+        if ($status == 200) {
+            return true;
+        } else if ($status == 500) {
+            return false;
+        }
+    }
 
     private function institutionSelfRegistration() {
         $data['request_type'] = $_POST['action'];
@@ -51,7 +66,7 @@ class System_Administration extends Database {
         $data['email'] = $_POST['email'];
 
         $data_string = http_build_query($data);
-
+        
         if (!empty($data['request_type']) && !empty($data['company_name']) && !empty($data['business_type']) && !empty($data['firstname']) && !empty($data['email'])) {
             $process_request = $this->sendHttpRequestPost($data_string);
             if ($process_request) {
@@ -119,13 +134,13 @@ class System_Administration extends Database {
         foreach ($info as $row) {
             if (is_null($currentGroup)) {
                 $currentGroup = $row['name'];
-                if (!empty($_POST['staqpesa_package']) && $_POST['staqpesa_package'] == $row['id']) {
+                if (!empty($_POST['package']) && $_POST['package'] == $row['id']) {
                     $html .= "<option value=\"{$row['id']}\" selected='selected'>{$row['name']}</option>";
                 } else {
                     $html .= "<option value=\"{$row['id']}\">{$row['name']}</option>";
                 }
             } else {
-                if (!empty($_POST['staqpesa_package']) && $_POST['staqpesa_package'] == $row['id']) {
+                if (!empty($_POST['package']) && $_POST['package'] == $row['id']) {
                     $html .= "<option value=\"{$row['id']}\" selected='selected'>{$row['name']}</option>";
                 } else {
                     $html .= "<option value=\"{$row['id']}\">{$row['name']}</option>";

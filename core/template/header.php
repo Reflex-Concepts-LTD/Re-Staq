@@ -1,3 +1,35 @@
+<?php 
+$configs = parse_ini_file(WPATH . "core/configs.ini");
+//$_SESSION['cPanelUrl'] = $configs["cPanelUrl"];
+//$_SESSION['cPuser'] = $configs["cPuser"];
+//$_SESSION['cPpass'] = $configs["cPpass"];
+//$_SESSION['domain_name'] = $configs["domain_name"];
+//$_SESSION['host_name'] = $configs["host_name"];
+//$_SESSION['db_name'] = $configs["db_name"];
+//$_SESSION['db_user'] = $configs["db_user"];
+//$_SESSION['db_password'] = $configs["db_password"];
+//$_SESSION['partners_db_password'] = $configs["partners_db_password"];
+$_SESSION['api_url'] = $configs["api_url"];
+//$_SESSION['displayed_website_link'] = $configs["displayed_website_link"];
+//$_SESSION['website_url'] = $configs["website_url"];
+//$_SESSION['admin_url'] = $configs["admin_url"];
+//$_SESSION['application_email'] = $configs["application_email"];
+//$_SESSION['application_phone'] = $configs["application_phone"];
+//$_SESSION['institution_name'] = $configs["institution_name"];
+//$_SESSION['institution_email'] = $configs["institution_email"];
+//$_SESSION['institution_phone'] = $configs["institution_phone"];
+//
+//$_SESSION['mail_host'] = $configs["mail_host"];
+//$_SESSION['SMTPAuth'] = $configs["SMTPAuth"];
+//$_SESSION['MUsername'] = $configs["MUsername"];
+//$_SESSION['MPassword'] = $configs["MPassword"];
+//$_SESSION['SMTPSecure'] = $configs["SMTPSecure"];
+//$_SESSION['Port'] = $configs["Port"];
+//$_SESSION['MUsernameFrom'] = $configs["MUsernameFrom"];
+//$_SESSION['AltBody'] = $configs["AltBody"];
+
+?>
+
 <!-- ***** Header Area Start ***** -->
 <header class="header-area">
     <div class="container">
