@@ -25,7 +25,7 @@
                             Monthly Fee: FREE
                         </div>
                         <a href="?app_excite" class="btn-primary-line">Package Details</a><br />
-                        <a href="?institution_registration" class="btn-primary-line">Subscribe</a>
+                        <a href="?institution_self_registration" class="btn-primary-line">Subscribe</a>
                     </div>
                 </div>
             </div>
@@ -54,7 +54,7 @@
                             Monthly Fee: KSH. 1000
                         </div>
                         <a href="?app_metro" class="btn-primary-line">Package Details</a><br />
-                        <a href="?institution_registration" class="btn-primary-line">Subscribe</a>
+                        <a href="?institution_self_registration" class="btn-primary-line">Subscribe</a>
                     </div>
                 </div>
             </div>
@@ -83,7 +83,7 @@
                             Monthly Fee: KSH. 3000
                         </div>
                         <a href="?app_staqpro" class="btn-primary-line">Package Details</a><br />
-                        <a href="?institution_registration" class="btn-primary-line">Subscribe</a>
+                        <a href="?institution_self_registration" class="btn-primary-line">Subscribe</a>
                     </div>
                 </div>
             </div>

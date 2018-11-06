@@ -1,80 +1,184 @@
 <?php
+
 class System_Administration extends Database {
 
     public function execute() {
-        if ($_POST['action'] == "add_book_type") {
-            return $this->addBookType();
-        } else if ($_POST['action'] == "edit_book_type") {
-            return $this->editBookType();
+        if ($_POST['action'] == "institution_self_registration") {
+            return $this->institutionSelfRegistration();
         }
     }
 
-    public function fetchBookTypeDetails($code) {
-        $sql = "SELECT * FROM book_types WHERE id=:code";
-        $stmt = $this->prepareQuery($sql);
-        $stmt->bindParam("code", $code);
-        $stmt->execute();
-        $info = $stmt->fetchAll(PDO::FETCH_ASSOC);
-        return $info[0];
+    public function sendHttpRequestPost($data_string) {
+        $curl_session = curl_init();
+        curl_setopt($curl_session, CURLOPT_URL, $_SESSION["api_url"]);
+        curl_setopt($curl_session, CURLOPT_POST, true);
+        curl_setopt($curl_session, CURLOPT_POSTFIELDS, $data_string);
+        curl_setopt($curl_session, CURLOPT_RETURNTRANSFER, true);
+        $response = curl_exec($curl_session);
+        curl_close($curl_session);
+        return $response;
     }
 
-    private function addBookType() {
-        $sql = "INSERT INTO book_types (name)"
-                . " VALUES (:name)";
-        $stmt = $this->prepareQuery($sql);
-        $stmt->bindValue("name", strtoupper($_POST['name']));
-        if ($stmt->execute()) {
+    public function sendHttpRequestGet($data_string) {
+        curl_setopt($curl_session, CURLOPT_URL, $_SESSION["api_url"] . $data_string);
+        curl_setopt($curl_session, CURLOPT_RETURNTRANSFER, true);
+        $response = curl_exec($curl_session);
+        curl_close($curl_session);
+        return $response;
+    }
+
+    public function sendHttpRequestPut($data_string) {
+        $curl_session = curl_init();
+        curl_setopt($curl_session, CURLOPT_URL, $_SESSION["api_url"] . $data_string);
+        curl_setopt($curl_session, CURLOPT_RETURNTRANSFER, true);
+        curl_setopt($curl_session, CURLOPT_CUSTOMREQUEST, "PUT");
+        curl_setopt($curl_session, CURLOPT_POSTFIELDS, $data_string);
+        $response = curl_exec($curl_session);
+        curl_close($curl_session);
+        return $response;
+    }
+    
+    public function checkIfEmailExists($email) {
+        $data['request_type'] = 'check_if_email_exists';
+        $data['email'] = $email;
+        $data_string = http_build_query($data);
+        $process_request = $this->sendHttpRequestPost($data_string);
+        $decoded_response = json_decode($process_request, true);
+        $status = $decoded_response['status'];
+        $info = $decoded_response['message'];
+        if ($status == 200) {
             return true;
-        } else
+        } else if ($status == 500) {
             return false;
+        }
     }
 
-    private function editBookType() {
-        $sql = "UPDATE book_types SET name=:new_name WHERE id=:code";
-        $stmt = $this->prepareQuery($sql);
-        $stmt->bindValue("code", $_SESSION['book_type']);
-        $stmt->bindValue("new_name", strtoupper($_POST['name']));
-        if ($stmt->execute()) {
-            return true;
-        } else
-            return false;
-    }
+    private function institutionSelfRegistration() {
+        $data['request_type'] = $_POST['action'];
+        $data['company_name'] = $_POST['organization_name'];
+        $data['country'] = $_POST['country'];
+        $data['business_type'] = $_POST['organization_business_type'];
+        $data['registration_date'] = $_POST['year'] . "-" . $_POST['month'] . "-" . $_POST['day'];
+        $data['package'] = $_POST['package'];
+        $data['firstname'] = $_POST['firstname'];
+        $data['lastname'] = $_POST['lastname'];
+        $data['phone_number'] = $_POST['phone_number'];
+        $data['email'] = $_POST['email'];
 
-    public function getAllBookTypes() {
-        $sql = "SELECT * FROM book_types ORDER BY createdat ASC";
-        $stmt = $this->prepareQuery($sql);
-        $stmt->execute();
-        $info = $stmt->fetchAll(PDO::FETCH_ASSOC);
-
-        if (count($info) == 0) {
-            $_SESSION['no_records'] = true;
-        } else {
-            $_SESSION['yes_records'] = true;
-            $values2 = array();
-            foreach ($info as $data) {
-                $values = array("id" => $data['id'], "name" => $data['name'], "createdat" => $data['createdat']);
-                array_push($values2, $values);
+        $data_string = http_build_query($data);
+        
+        if (!empty($data['request_type']) && !empty($data['company_name']) && !empty($data['business_type']) && !empty($data['firstname']) && !empty($data['email'])) {
+            $process_request = $this->sendHttpRequestPost($data_string);
+            if ($process_request) {
+                $decoded_response = json_decode($process_request, true);
+                $response['status'] = $decoded_response['status'];
+                $response['message'] = $decoded_response['message'];
+            } else {
+                $response['status'] = 400;
+                $response['message'] = "Sorry: There was an error processing the request. Please try again later";
             }
-            return json_encode($values2);
+        } else {
+            $response['status'] = 400;
+            $response['message'] = "Error: Missing Values in Request";
         }
+        return $response;
     }
 
-    public function getBookTypes() {
-        $sql = "SELECT id, name FROM book_types ORDER BY name ASC";
-        $stmt = $this->prepareQuery($sql);
-        $stmt->execute();
+    public function getBusinessForms() {
+        $data['request_type'] = 'get_business_forms';
+        $data_string = http_build_query($data);
+        $process_request = $this->sendHttpRequestPost($data_string);
+        $decoded_response = json_decode($process_request, true);
+        $info = $decoded_response['message'];
         $currentGroup = null;
         $html = "";
-        while ($row = $stmt->fetch()) {
+        foreach ($info as $row) {
             if (is_null($currentGroup)) {
                 $currentGroup = $row['name'];
-                $html .= "<option value=\"{$row['id']}\" selected>{$row['name']}</option>";
+                if (!empty($_POST['business_form']) && $_POST['business_form'] == $row['id']) {
+                    $html .= "<option value=\"{$row['id']}\" selected='selected'>{$row['name']}</option>";
+                } else {
+                    $html .= "<option value=\"{$row['id']}\">{$row['name']}</option>";
+                }
             } else {
-                $html .= "<option value=\"{$row['id']}\">{$row['name']}</option>";
+                if (!empty($_POST['business_form']) && $_POST['business_form'] == $row['id']) {
+                    $html .= "<option value=\"{$row['id']}\" selected='selected'>{$row['name']}</option>";
+                } else {
+                    $html .= "<option value=\"{$row['id']}\">{$row['name']}</option>";
+                }
+            }
+        }
+
+//        foreach ($info as $row) {
+//            if (is_null($currentGroup)) {
+//                $currentGroup = $row['name'];
+//                $html .= "<option value=\"{$row['id']}\" selected>{$row['name']}</option>";
+//            } else {
+//                $html .= "<option value=\"{$row['id']}\">{$row['name']}</option>";
+//            }
+//        }
+        if ($html == "")
+            $html = "<option value=\"\">No business form entered into the database!</option>";
+        echo $html;
+        return $currentGroup;
+    }
+
+    public function getStaqpesaPackages() {
+        $data['request_type'] = 'get_staqpesa_packages';
+        $data_string = http_build_query($data);
+        $process_request = $this->sendHttpRequestPost($data_string);
+        $decoded_response = json_decode($process_request, true);
+        $info = $decoded_response['message'];
+        $currentGroup = null;
+        $html = "";
+        foreach ($info as $row) {
+            if (is_null($currentGroup)) {
+                $currentGroup = $row['name'];
+                if (!empty($_POST['package']) && $_POST['package'] == $row['id']) {
+                    $html .= "<option value=\"{$row['id']}\" selected='selected'>{$row['name']}</option>";
+                } else {
+                    $html .= "<option value=\"{$row['id']}\">{$row['name']}</option>";
+                }
+            } else {
+                if (!empty($_POST['package']) && $_POST['package'] == $row['id']) {
+                    $html .= "<option value=\"{$row['id']}\" selected='selected'>{$row['name']}</option>";
+                } else {
+                    $html .= "<option value=\"{$row['id']}\">{$row['name']}</option>";
+                }
             }
         }
         if ($html == "")
-            $html = "<option value=\"\">No book type entered into the database!</option>";
+            $html = "<option value=\"\">No staqpesa package entered into the database!</option>";
+        echo $html;
+        return $currentGroup;
+    }
+
+    public function getPartnerCountries() {
+        $data['request_type'] = 'get_partner_countries';
+        $data_string = http_build_query($data);
+        $process_request = $this->sendHttpRequestPost($data_string);
+        $decoded_response = json_decode($process_request, true);
+        $info = $decoded_response['message'];
+        $currentGroup = null;
+        $html = "";
+        foreach ($info as $row) {
+            if (is_null($currentGroup)) {
+                $currentGroup = $row['name'];
+                if (!empty($_POST['country']) && $_POST['country'] == $row['id']) {
+                    $html .= "<option value=\"{$row['id']}\" selected='selected'>{$row['name']}</option>";
+                } else {
+                    $html .= "<option value=\"{$row['id']}\">{$row['name']}</option>";
+                }
+            } else {
+                if (!empty($_POST['country']) && $_POST['country'] == $row['id']) {
+                    $html .= "<option value=\"{$row['id']}\" selected='selected'>{$row['name']}</option>";
+                } else {
+                    $html .= "<option value=\"{$row['id']}\">{$row['name']}</option>";
+                }
+            }
+        }
+        if ($html == "")
+            $html = "<option value=\"\">No partner country entered into the database!</option>";
         echo $html;
         return $currentGroup;
     }
