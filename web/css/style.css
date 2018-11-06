@@ -1041,11 +1041,11 @@ home
 }
 
 .home-services-item .services-title {
-  font-weight: 400;
+  font-weight: 500;
   font-size: 16px;
   line-height: 26px;
   color: #3B566E;
-  margin-bottom: 23px !important;
+  margin-bottom: 2px !important;
   letter-spacing: 0.7px;
   -webkit-transition: all 0.3s ease 0s;
   -moz-transition: all 0.3s ease 0s;

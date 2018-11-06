@@ -11,8 +11,8 @@
         <div class="container">
             <div class="row">
                 <div class="col-lg-6 col-md-12 col-sm-12 col-xs-12 align-self-center">
-                    <h1>Staqpesa, is a cloud-based software as a service (SaaS) platform</h1>
-                    <p>That's why we know you will love our integrated and transparent accounting solution just fit for your chamaa, micro-finance or SACCO. Staqpesa is enabling the growth and sustainability of these entities across Africa.
+                    <h1>Staqpesa, is a cloud-based chamaa accounting software as a service (SaaS) platform</h1>
+                    <p>We know you will love our integrated and transparent solution just fit for your chamaa, micro-finance or SACCO. Staqpesa is enabling the growth and sustainability of these entities across Africa.
 <!--                        <a class="btn-white-line" href="?our_work">View All</a>-->
                 </div>
 <!--                <div class="offset-lg-1 col-lg-5 col-md-12 col-sm-12 col-xs-12 align-self-center">
@@ -20,59 +20,59 @@
                         <div class="container-fluid">
                             <div class="row">
                                 <div class="col-lg-3 col-md-3 col-sm-3 col-3">
-                                    <a href="?" class="app-item">
+                                    <a href="?payment_gateway" class="app-item">
                                         <div class="icon">
-                                            <img src="images/icons/apps/1.png" class="img-fluid" alt="">
+                                            <i class="fa fa-money" style="font-size:50px; color: darkslateblue"></i>
                                         </div>
                                     </a>
                                 </div>
                                 <div class="col-lg-3 col-md-3 col-sm-3 col-3">
-                                    <a href="?" class="app-item">
+                                    <a href="?redundant_backup" class="app-item">
                                         <div class="icon">
-                                            <img src="images/icons/apps/2.png" class="img-fluid" alt="">
+                                            <i class="fa fa-save" style="font-size:50px; color: darkslateblue"></i>
                                         </div>
                                     </a>
                                 </div>
                                 <div class="col-lg-3 col-md-3 col-sm-3 col-3">
-                                    <a href="?" class="app-item">
+                                    <a href="?reporting_analytics" class="app-item">
                                         <div class="icon">
-                                            <img src="images/icons/apps/3.png" class="img-fluid" alt="">
+                                            <i class="fa fa-code" style="font-size:50px; color: darkslateblue"></i>
                                         </div>
                                     </a>
                                 </div>
                                 <div class="col-lg-3 col-md-3 col-sm-3 col-3">
-                                    <a href="?" class="app-item">
+                                    <a href="?marketing_tools" class="app-item">
                                         <div class="icon">
-                                            <img src="images/icons/apps/4.png" class="img-fluid" alt="">
+                                            <i class="fa fa-cubes" style="font-size:50px; color: darkslateblue"></i>
                                         </div>
                                     </a>
                                 </div>
                                 <div class="col-lg-3 col-md-3 col-sm-3 col-3">
-                                    <a href="?" class="app-item">
+                                    <a href="?secure" class="app-item">
                                         <div class="icon">
-                                            <img src="images/icons/apps/5.png" class="img-fluid" alt="">
+                                            <i class="fa fa-lock" style="font-size:50px; color: darkslateblue"></i>
                                         </div>
                                     </a>
                                 </div>
                                 <div class="col-lg-3 col-md-3 col-sm-3 col-3">
-                                    <a href="?" class="app-item">
+                                    <a href="?saas" class="app-item">
                                         <div class="icon">
-                                            <img src="images/icons/apps/6.png" class="img-fluid" alt="">
+                                            <i class="fa fa-connectdevelop" style="font-size:50px; color: darkslateblue"></i>
                                         </div>
                                     </a>
                                 </div>
                                 <div class="col-lg-3 col-md-3 col-sm-3 col-3">
-                                    <a href="?" class="app-item">
+                                    <a href="?scalable" class="app-item">
                                         <div class="icon">
-                                            <img src="images/icons/apps/7.png" class="img-fluid" alt="">
+                                            <i class="fa fa-object-ungroup" style="font-size:50px; color: darkslateblue"></i>
                                         </div>
                                     </a>
                                 </div>
                                 <div class="col-lg-3 col-md-3 col-sm-3 col-3">
-                                    <a href="?" class="app-item">
-                                        <div class="icon">
-                                            <img src="images/icons/apps/8.png" class="img-fluid" alt="">
-                                        </div>
+                                    <a href="?cross_platform" class="app-item">
+                                         <div class="icon">
+                                           <i class="fa fa-clone" style="font-size:50px; color: darkslateblue"></i>
+                                         </div>
                                     </a>
                                 </div>
                             </div>
