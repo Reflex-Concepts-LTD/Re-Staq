@@ -17,6 +17,9 @@ else if (is_menu_set('dashboard') != "") {
 } else if (is_menu_set('about_us') != "") {
     $currentPage = WPATH . "modules/about_us.php";
     set_title("staqpesa - About Us");
+} else if (is_menu_set('login') != "") {
+    $currentPage = WPATH . "modules/login.php";
+    set_title("staqpesa - Login");
 } else if (is_menu_set('app_staqpro') != "") {
     $currentPage = WPATH . "modules/app_staqpro.php";
     set_title("staqpesa - StaqPro Package");

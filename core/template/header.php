@@ -1,5 +1,5 @@
 <?php 
-$configs = parse_ini_file(WPATH . "core/configs.ini");
+$configs = parse_ini_file(WPATH . "core/configs_lb.ini");
 //$_SESSION['cPanelUrl'] = $configs["cPanelUrl"];
 //$_SESSION['cPuser'] = $configs["cPuser"];
 //$_SESSION['cPpass'] = $configs["cPpass"];
@@ -27,6 +27,8 @@ $_SESSION['api_url'] = $configs["api_url"];
 //$_SESSION['Port'] = $configs["Port"];
 //$_SESSION['MUsernameFrom'] = $configs["MUsernameFrom"];
 //$_SESSION['AltBody'] = $configs["AltBody"];
+require_once WPATH . "modules/classes/Feedback.php";
+$feedback = new Feedback();
 
 ?>
 
@@ -49,7 +51,7 @@ $_SESSION['api_url'] = $configs["api_url"];
                         <li><a href="?features">FEATURES</a></li>
                         <li><a href="?packages">PACKAGES</a></li>
                         <li><a href="?partners">PARTNERS</a></li><br />
-                        <li><a href="?institution_self_registration" class="btn-nav-line">JOIN US</a></li>
+                        <li><a href="?institution_self_registration" class="btn-nav-line join" style="border: 2px solid #098e00; color: #c1c1c1;">JOIN US</a></li>
 <!--                        <li><a href="?about_us">ABOUT US</a></li>-->
                         <!--<li><a href="?blog">BLOG</a></li>-->
                         <li><a href="?contact" class="btn-nav-line">CONTACT</a></li>
@@ -61,6 +63,14 @@ $_SESSION['api_url'] = $configs["api_url"];
                 </nav>
             </div>
         </div>
+        <?php
+        if (isset($_SESSION['update_pass_forgot']) AND ( $_SESSION['update_pass_forgot'] == true)) {
+            $title = "Fantastic";
+            $message = "Password successfully updated. Check your email.";
+            echo $feedback->successFeedback($title, $message);
+            unset($_SESSION['update_pass_forgot']);
+        }
+        ?> 
     </div>
 </header>
 <!-- ***** Header Area End ***** -->

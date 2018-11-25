@@ -24,8 +24,8 @@
         <div class="container">
             <div class="row">
                 <div class="col-lg-4 col-md-6 col-sm-12">
-                    <a href="?cross_platform" class="home-services-item">
-                        
+                    <!--<a href="?cross_platform" class="home-services-item">-->
+                    <a href="#" class="home-services-item">
                         <h5 class="services-title"> <i class="fa fa-clone"> </i> Cross-Platform</h5>
                         <p>Staqpesa is accessible from all devices. Supports exporting and importing 
                             of data in most common document formats. With our round-the-clock support and the solution’s user-friendly 
@@ -33,7 +33,8 @@
                     </a>
                 </div>
                 <div class="col-lg-4 col-md-6 col-sm-12">
-                    <a href="?saas" class="home-services-item">
+                    <!--<a href="?saas" class="home-services-item">-->
+                    <a href="#" class="home-services-item">
                         <h5 class="services-title"><i class="fa fa-connectdevelop"> </i> Software as a Service (SaaS)</h5>
                         <p>No infrastructural setup. Subscribe to any 
                             of our affordable packages to use Staqpesa as a service over the internet. 
@@ -42,7 +43,8 @@
                     </a>
                 </div>
                 <div class="col-lg-4 col-md-6 col-sm-12">
-                    <a href="?scalability" class="home-services-item">
+                    <!--<a href="?scalability" class="home-services-item">-->
+                    <a href="#" class="home-services-item">
                         <h5 class="services-title"><i class="fa fa-object-ungroup"> </i> Simple Scalability</h5>
                         <p>Staqpesa is easily customizable to suit your needs, 
                             enforce your unique by-laws, policies and regulations. 
@@ -51,7 +53,8 @@
                     </a>
                 </div>
                 <div class="col-lg-4 col-md-6 col-sm-12">
-                    <a href="?p_management" class="home-services-item">
+                    <!--<a href="?p_management" class="home-services-item">-->
+                    <a href="#" class="home-services-item">
                         <h5 class="services-title"><i class="fa fa-line-chart"> </i> Users/Personnel Management</h5>
                         <p>Staqpesa allows SACCOs & MFIs to know their authenticated clients by 
                             capturing, processing & analyzing their bio data. 
@@ -60,15 +63,17 @@
                     </a>
                 </div>
                 <div class="col-lg-4 col-md-6 col-sm-12">
-                    <a href="?fosa_management" class="home-services-item">
-                       <h5 class="services-title"> <i class="fa fa-user-o"> </i> Front-Office Management</h5>
+                    <!--<a href="?fosa_management" class="home-services-item">-->
+                    <a href="#" class="home-services-item">
+                        <h5 class="services-title"> <i class="fa fa-user-o"> </i> Front-Office Management</h5>
                         <p>Staqpesa facilitates the management of account deposit remittances, 
                             withdrawals and account-to-account transfers among other transactions. 
                             Comprehensive and automated statements regards to contribution activities can be easily extracted.</p>
                     </a>
                 </div>
                 <div class="col-lg-4 col-md-6 col-sm-12">
-                    <a href="?bosa_management" class="home-services-item">
+                    <!--<a href="?bosa_management" class="home-services-item">-->
+                    <a href="#" class="home-services-item">
                         <h5 class="services-title"> <i class="fa fa-picture-o"> </i> Back-Office Management</h5>
                         <p>Staqpesa supports multiple loan products (both reducing balance 
                             interest based, straight line interest based) as well 
@@ -77,9 +82,10 @@
                             and automated disbursement.</p>
                     </a>
                 </div>
-                
+
                 <div class="col-lg-4 col-md-6 col-sm-12">
-                    <a href="?secure" class="home-services-item">
+                    <!--<a href="?secure" class="home-services-item">-->
+                    <a href="#" class="home-services-item">
                         <h5 class="services-title"> <i class="fa fa-lock"> </i> Secure Operations</h5>
                         <p>System usage is based on secure authentication of users. 
                             Users are therefore authorized to access specific assigned components 
@@ -89,10 +95,11 @@
                             through a ‘Maker – Checker’ authorization model.</p>
                     </a>
                 </div>
-                
-                
+
+
                 <div class="col-lg-4 col-md-6 col-sm-12">
-                    <a href="?marketing_tools" class="home-services-item">
+                    <!--<a href="?marketing_tools" class="home-services-item">-->
+                    <a href="#" class="home-services-item">
                         <h5 class="services-title"> <i class="fa fa-cubes"> </i> Integrated Marketing Tools</h5>
                         <p>Staqpesa has onboard tools to complement organizational marketing efforts. 
                             This is primarily achieved through SMS and email campaigns and notifications. 
@@ -101,23 +108,26 @@
                     </a>
                 </div>
                 <div class="col-lg-4 col-md-6 col-sm-12">
-                    <a href="?reporting_analytics" class="home-services-item">
-                       <h5 class="services-title"> <i class="fa fa-code"> </i> Reporting and Analytics</h5>
+                    <!--<a href="?reporting_analytics" class="home-services-item">-->
+                    <a href="#" class="home-services-item">
+                        <h5 class="services-title"> <i class="fa fa-code"> </i> Reporting and Analytics</h5>
                         <p>Staqpesa generates and avails all the necessary reports and statements. 
                             These are summarized into a dashboard and can also be exported to other 
                             third-party software applications such as excel and pdf.</p>
                     </a>
                 </div>
                 <div class="col-lg-4 col-md-6 col-sm-12">
-                    <a href="?redundant_backup" class="home-services-item">
-                       <h5 class="services-title"> <i class="fa fa-save"></i> Redundant Backup</h5>
+                    <!--<a href="?redundant_backup" class="home-services-item">-->
+                    <a href="#" class="home-services-item">
+                        <h5 class="services-title"> <i class="fa fa-save"></i> Redundant Backup</h5>
                         <p>With Staqpesa, your data is 100% safe. We ensure your sensitive data is 
                             encrypted and intruders cannot make sense of the data without the 
                             Staqpesa installation. Your data is also redundantly backed up.</p>
                     </a>
                 </div>
                 <div class="col-lg-4 col-md-6 col-sm-12">
-                    <a href="?payment_gateway" class="home-services-item">
+                    <!--<a href="?payment_gateway" class="home-services-item">-->
+                    <a href="#" class="home-services-item">
                         <h5 class="services-title"> <i class="fa fa-money"> </i> Payment Gateway Integration</h5>
                         <p>Staqpesa is readily integrated with a number of the 
                             locally available third-party payment gateways: mobile money, banks</p>
