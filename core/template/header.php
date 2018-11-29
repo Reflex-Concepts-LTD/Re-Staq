@@ -1,5 +1,5 @@
 <?php 
-$configs = parse_ini_file(WPATH . "core/configs.ini");
+$configs = parse_ini_file(WPATH . "core/configs_lb.ini");
 //$_SESSION['cPanelUrl'] = $configs["cPanelUrl"];
 //$_SESSION['cPuser'] = $configs["cPuser"];
 //$_SESSION['cPpass'] = $configs["cPpass"];
@@ -27,6 +27,8 @@ $_SESSION['admin_url'] = $configs["admin_url"];
 //$_SESSION['Port'] = $configs["Port"];
 //$_SESSION['MUsernameFrom'] = $configs["MUsernameFrom"];
 //$_SESSION['AltBody'] = $configs["AltBody"];
+require_once WPATH . "modules/classes/Feedback.php";
+$feedback = new Feedback();
 
 ?>
 
@@ -62,6 +64,14 @@ $_SESSION['admin_url'] = $configs["admin_url"];
                 </nav>
             </div>
         </div>
+        <?php
+        if (isset($_SESSION['update_pass_forgot']) AND ( $_SESSION['update_pass_forgot'] == true)) {
+            $title = "Fantastic";
+            $message = "Password successfully updated. Check your email.";
+            echo $feedback->successFeedback($title, $message);
+            unset($_SESSION['update_pass_forgot']);
+        }
+        ?> 
     </div>
 </header>
 <!-- ***** Header Area End ***** -->

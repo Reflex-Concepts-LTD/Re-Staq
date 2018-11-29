@@ -630,7 +630,7 @@ header
 }
 
 .header-area .main-nav .nav li a.btn-nav-line {
-  border: 1px solid #fff;
+  border: 2px solid #fff;
   width: 140px;
   height: 36px;
   line-height: 36px;
@@ -642,6 +642,16 @@ header
   -moz-transition: all 0.3s ease 0s;
   -o-transition: all 0.3s ease 0s;
   transition: all 0.3s ease 0s;
+}
+
+.join {
+  border: 2px solid #fff;
+  background-color: #098e00;
+}
+
+.header-area.header-sticky .nav li a.join{
+    border: 2px solid #098e00;
+    color: #4886FF;
 }
 
 .header-area .main-nav .nav li a.btn-nav-line:hover {
@@ -1041,11 +1051,11 @@ home
 }
 
 .home-services-item .services-title {
-  font-weight: 400;
+  font-weight: 500;
   font-size: 16px;
   line-height: 26px;
   color: #3B566E;
-  margin-bottom: 23px !important;
+  margin-bottom: 2px !important;
   letter-spacing: 0.7px;
   -webkit-transition: all 0.3s ease 0s;
   -moz-transition: all 0.3s ease 0s;
