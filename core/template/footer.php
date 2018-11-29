@@ -12,7 +12,8 @@
                 <ul class="footer-nav">
                     <li><a href="?features"><i class="fa fa-angle-right"></i><span>Features</span></a></li>
                     <li><a href="?packages"><i class="fa fa-angle-right"></i><span>Packages</span></a></li>
-                    <li><a href="?partners"><i class="fa fa-angle-right"></i><span>Partners</span></a></li>
+                    <li><a href="?login"><i class="fa fa-angle-right"></i><span>Login</span></a></li>
+                    <!--<li><a href="?partners"><i class="fa fa-angle-right"></i><span>Partners</span></a></li>-->
                     <!--<li><a href="?about_us"><i class="fa fa-angle-right"></i><span>About Us</span></a></li>-->
                     <!--<li><a href="?blog"><i class="fa fa-angle-right"></i><span>Blog</span></a></li>-->
                     <li><a href="?contact"><i class="fa fa-angle-right"></i><span>Contact</span></a></li>
@@ -30,9 +31,10 @@
             <div class="col-lg-3 col-md-4 col-sm-12">
                 <h5>Contact Us</h5>
                 <div class="address">
-                    <p>1st Flr, Rentford Hse<br>Muindi Mbingu St. NRB, KE</p>
-                    <p>Phone: (+254) 736249665</p>
-                    <p><span>E-Mail:</span><a href="mailto:jenga@staqpesa.com">jenga@staqpesa.com</a></p>
+                    <!--<p>1st Flr, Rentford Hse<br>Muindi Mbingu St. NRB, KE</p>-->
+                    <p>PHONE: (+254) 736249665</p>
+                    <p>PHONE: (+256) 782620601</p>
+                    <p><span>E-MAIL: </span><a href="mailto:jenga@staqpesa.com">JENGA@STAQPESA.COM</a></p>
                     <ul class="social">
                         <li><a href="#"><i class="fa fa-facebook-square"></i></a></li>
                         <li><a href="#"><i class="fa fa-twitter-square"></i></a></li>

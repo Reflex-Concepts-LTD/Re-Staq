@@ -38,6 +38,21 @@ class System_Administration extends Database {
         return $response;
     }
     
+    public function checkIfInstitutionExists($institution_id) {
+        $data['request_type'] = 'check_if_institution_exists';
+        $data['institution_id'] = $institution_id;
+        $data_string = http_build_query($data);
+        $process_request = $this->sendHttpRequestPost($data_string);
+        $decoded_response = json_decode($process_request, true);
+        $status = $decoded_response['status'];
+        $info = $decoded_response['message'];
+        if ($status == 200) {
+            return true;
+        } else if ($status == 500) {
+            return false;
+        }
+    }
+
     public function checkIfEmailExists($email) {
         $data['request_type'] = 'check_if_email_exists';
         $data['email'] = $email;
@@ -181,6 +196,44 @@ class System_Administration extends Database {
             $html = "<option value=\"\">No partner country entered into the database!</option>";
         echo $html;
         return $currentGroup;
+    }
+    
+    public function getAllPartnerCountries() {
+        $data['request_type'] = 'get_all_partner_countries';
+        $data_string = http_build_query($data);
+        $process_request = $this->sendHttpRequestPost($data_string);
+        $decoded_response = json_decode($process_request, true);
+        $info = $decoded_response['message'];
+        return $info;
+    }
+
+    public function getAllStaqpesaPackages() {
+        $data['request_type'] = 'get_all_staqpesa_packages';
+        $data_string = http_build_query($data);
+        $process_request = $this->sendHttpRequestPost($data_string);
+        $decoded_response = json_decode($process_request, true);
+        $info = $decoded_response['message'];
+        return $info;
+    }
+
+    public function fetchPartnerCountryDetails($code) {
+        $data['request_type'] = 'fetch_partner_country_details';
+        $data['code'] = $code;
+        $data_string = http_build_query($data);
+        $process_request = $this->sendHttpRequestPost($data_string);
+        $decoded_response = json_decode($process_request, true);
+        $info = $decoded_response['message'];
+        return $info;
+    }
+
+    public function fetchStaqpesaPackageDetails($code) {
+        $data['request_type'] = 'fetch_staqpesa_package_details';
+        $data['code'] = $code;
+        $data_string = http_build_query($data);
+        $process_request = $this->sendHttpRequestPost($data_string);
+        $decoded_response = json_decode($process_request, true);
+        $info = $decoded_response['message'];
+        return $info;
     }
 
 }

@@ -1,3 +1,14 @@
+
+<?php
+require_once WPATH . "modules/classes/System_Administration.php";
+$system_administration = new System_Administration();
+$partner_countries = $system_administration->getAllPartnerCountries();
+if (isset($_GET['contact_country_code'])) {
+    $_SESSION['contact_country_code'] = $_GET['contact_country_code'];
+    $_SESSION['contact_country_details'] = $system_administration->fetchPartnerCountryDetails($_SESSION['contact_country_code']);
+}
+?>
+
 <section class="page">
     <!-- ***** Page Top Start ***** -->
     <div class="cover" data-image="images/photos/parallax.jpg">
@@ -19,11 +30,29 @@
     </div>
     <!-- ***** Page Top End ***** -->
 
+    <div class="col-lg-12 col-md-12 col-sm-12">
+        <div class="contact-text">
+            <br />
+            <p>Please select your country of operation below.</p>
+        </div>
+
+        <?php
+        if (count($partner_countries) == 0) {
+            echo "No partner country record found.";
+        } else {
+            echo " | ";
+            foreach ($partner_countries as $data) {
+                echo "<a href='?contact&contact_country_code=" . $data['id'] . "'><img src='images/partner_countries/{$data['flag_logo']}'>" . ' ' . $data['name'] . "</a> | ";
+            }
+        }
+        ?>
+    </div>
+
     <!-- ***** Page Content Start ***** -->
     <div class="page-bottom">
         <div class="map-wrapper">
             <!-- ***** Google Maps Start ***** -->
-            <div class="map-canvas"
+<!--            <div class="map-canvas"
                  data-zoom="17"
                  data-lat="-1.2808975"
                  data-lng="36.8184283"
@@ -32,43 +61,46 @@
                  data-title="staqpesa HQ"
                  data-icon-path="images/marker.png"
                  data-content="1st Flr, Rentford Hse<br>Muindi Mbingu St. NRB, KE<br><br><a href='mailto:hello@reflexconcepts.co.ke'>hello@reflexconcepts.co.ke</a>">
-            </div>
+            </div>-->
             <!-- ***** Google Maps End ***** -->
 
-            <!-- ***** Contact Informations Start ***** -->
-            <div class="container">
-                <div class="row">
-                    <div class="offset-lg-8 col-lg-4 col-md-12 col-sm-12">
-                        <div class="contact-info">
-                            <div class="item">
-                                <i class="fa fa-location-arrow"></i>
-                                <div class="txt">
-                                    <span>1st Flr, Rentford Hse<br>Muindi Mbingu St. NRB, KE</span>                   
+            <!-- ***** Contact Informations Start ***** -->      
+            <?php if (isset($_SESSION['contact_country_code'])) { ?>
+                <div class="container">
+                    <div class="row">
+                        <div class="offset-lg-8 col-lg-4 col-md-12 col-sm-12">
+                            <div class="contact-info">
+                                <div class="item">
+                                    <i class="fa fa-location-arrow"></i>
+                                    <div class="txt">
+                                        <span><?php echo $_SESSION['contact_country_details']['physical_address']; ?></span>
+    <!--                                    <span>1st Flr, Rentford Hse<br>Muindi Mbingu St. NRB, KE</span>                   -->
+                                    </div>
                                 </div>
-                            </div>
-                            <div class="item">
-                                <i class="fa fa-phone"></i>
-                                <div class="txt">
-                                     <span>Phone: (+254) 736249665</span>
+                                <div class="item">
+                                    <i class="fa fa-phone"></i>
+                                    <div class="txt">
+                                        <span><?php echo "(+" . $_SESSION['contact_country_details']['code'] . ") " . $_SESSION['contact_country_details']['phone_number']; ?></span>
+                                    </div>
                                 </div>
-                            </div>
-                            <div class="item">
-                                <i class="fa fa-envelope"></i>
-                                <div class="txt">
-                                    <span><a href="mailto:hello@reflexconcepts.co.ke">hello@reflexconcepts.co.ke</a></span>
+                                <div class="item">
+                                    <i class="fa fa-envelope"></i>
+                                    <div class="txt">
+                                        <span><a href="mailto:jenga@staqpesa.com"><?php echo $_SESSION['contact_country_details']['email']; ?></a></span>
+                                    </div>
                                 </div>
+                                <ul class="social">
+                                    <li><a href="#"><i class="fa fa-facebook-square"></i></a></li>
+                                    <li><a href="#"><i class="fa fa-twitter-square"></i></a></li>
+                                    <li><a href="#"><i class="fa fa-linkedin-square"></i></a></li>
+                                    <li><a href="#"><i class="fa fa-google-plus-square"></i></a></li>
+                                    <li><a href="#"><i class="fa fa-github-square"></i></a></li>
+                                </ul>
                             </div>
-                            <ul class="social">
-                                <li><a href="#"><i class="fa fa-facebook-square"></i></a></li>
-                                <li><a href="#"><i class="fa fa-twitter-square"></i></a></li>
-                                <li><a href="#"><i class="fa fa-linkedin-square"></i></a></li>
-                                <li><a href="#"><i class="fa fa-google-plus-square"></i></a></li>
-                                <li><a href="#"><i class="fa fa-github-square"></i></a></li>
-                            </ul>
                         </div>
                     </div>
                 </div>
-            </div>
+            <?php } ?>
             <!-- ***** Contact Informations End ***** -->
         </div>
 
