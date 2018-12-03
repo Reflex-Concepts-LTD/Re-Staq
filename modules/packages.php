@@ -1,3 +1,12 @@
+<?php
+require_once WPATH . "modules/classes/System_Administration.php";
+$system_administration = new System_Administration();
+if (isset($_GET['package_country_code'])) {
+    $_SESSION['package_country_code'] = $_GET['package_country_code'];
+    $_SESSION['package_country_details'] = $system_administration->fetchPartnerCountryDetails($_SESSION['package_country_code']);
+}
+?>
+
 <section class="page">
     <!-- ***** Page Top Start ***** -->
     <div class="cover" data-image="images/photos/parallax.jpg">

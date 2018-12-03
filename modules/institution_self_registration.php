@@ -52,7 +52,8 @@ if (!empty($_POST)) {
                     <h5 class="mbottom-30">Add Institution</h5>
                     <div class="contact-text">
                         <p>We are very eager to talk to you.</p>
-                        <p>Talk to us on how to mould you future in your business.</p>
+                        <p>Talk to us on how to mould you future in your business.</p>                        
+                        <p>We have local bases in Kenya, Uganda, Ethiopia, South Africa and Nigeria. More countries are also coming on board with time.</p>
                     </div>
                 </div>
                 <!-- ***** Contact Text End ***** -->
