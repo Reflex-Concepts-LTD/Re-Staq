@@ -12,7 +12,7 @@ $configs = parse_ini_file(WPATH . "core/configs_lb.ini");
 $_SESSION['api_url'] = $configs["api_url"];
 //$_SESSION['displayed_website_link'] = $configs["displayed_website_link"];
 //$_SESSION['website_url'] = $configs["website_url"];
-//$_SESSION['admin_url'] = $configs["admin_url"];
+$_SESSION['admin_url'] = $configs["admin_url"];
 //$_SESSION['application_email'] = $configs["application_email"];
 //$_SESSION['application_phone'] = $configs["application_phone"];
 //$_SESSION['institution_name'] = $configs["institution_name"];
@@ -50,8 +50,9 @@ $feedback = new Feedback();
                         <li><a href="?">HOME</a></li>
                         <li><a href="?features">FEATURES</a></li>
                         <li><a href="?packages">PACKAGES</a></li>
-                        <li><a href="?partners">PARTNERS</a></li><br />
-                        <li><a href="?institution_self_registration" class="btn-nav-line join" style="border: 2px solid #098e00; color: #c1c1c1;">JOIN US</a></li>
+                        <!--<li><a href="?partners">PARTNERS</a></li><br />-->
+                        <li><a href="?institution_self_registration" class="btn-nav-line">JOIN US</a></li>
+                        <li><a href="?login" class="btn-nav-line">LOGIN</a></li>
 <!--                        <li><a href="?about_us">ABOUT US</a></li>-->
                         <!--<li><a href="?blog">BLOG</a></li>-->
                         <li><a href="?contact" class="btn-nav-line">CONTACT</a></li>
