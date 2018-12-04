@@ -3,7 +3,7 @@
     <div class="container">
         <div class="row">
             <div class="col-lg-5 col-md-12 col-sm-12">
-                <img src="assets/images/logo-dark.svg" class="logo" alt="">
+                <img src="images/brand/logo-dark.svg" width="180" class="logo" alt="">
                 <div class="text">Staqpesa is an innovation offering a convergence point between the community and technology. 
                     There is no 'informal business', everyone is a contributor. </div>
             </div>

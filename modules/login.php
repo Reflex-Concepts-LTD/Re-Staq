@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 <?php
 require_once WPATH . "modules/classes/System_Administration.php";
 $system_administration = new System_Administration();
@@ -11,7 +10,7 @@ if (!empty($_POST)) {
     } else {
         App::redirectTo("{$_SESSION['admin_url']}/?home&institution={$_POST['institution_id']}");
     }
-}
+} 
 ?>
 
 <section class="page">
