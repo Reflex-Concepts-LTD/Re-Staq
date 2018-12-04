@@ -3,7 +3,7 @@
 require WPATH . "core/include.php";
 $currentPage = "";
 
-if (is_menu_set('logout') != "") 
+if (is_menu_set('logout') != "")
     App::logOut();
 else if (is_menu_set('dashboard') != "") {
     $currentPage = WPATH . "modules/home.php";
@@ -17,6 +17,21 @@ else if (is_menu_set('dashboard') != "") {
 } else if (is_menu_set('institution_self_registration') != "") {
     $currentPage = WPATH . "modules/institution_self_registration.php";
     set_title("staqpesa - Institution Self Registration");
+} else if (is_menu_set('business_setup') != "") {
+    $currentPage = WPATH . "modules/business_setup.php";
+    set_title("staqpesa - Business Setup");
+} else if (is_menu_set('business_setup_branches') != "") {
+    $currentPage = WPATH . "modules/business_setup_branches.php";
+    set_title("staqpesa - Branches Setup");
+} else if (is_menu_set('business_setup_positions') != "") {
+    $currentPage = WPATH . "modules/business_setup_positions.php";
+    set_title("staqpesa - Positions Setup");
+} else if (is_menu_set('business_setup_loan_types') != "") {
+    $currentPage = WPATH . "modules/business_setup_loan_types.php";
+    set_title("staqpesa - Loan Types Setup");
+} else if (is_menu_set('business_setup_loan_processing_fees') != "") {
+    $currentPage = WPATH . "modules/business_setup_loan_processing_fees.php";
+    set_title("staqpesa - Loan Processing Fees Setup");
 } else if (is_menu_set('about_us') != "") {
     $currentPage = WPATH . "modules/about_us.php";
     set_title("staqpesa - About Us");

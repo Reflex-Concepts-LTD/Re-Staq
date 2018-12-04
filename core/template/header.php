@@ -1,5 +1,5 @@
 <?php 
-$configs = parse_ini_file(WPATH . "core/configs_lb.ini");
+$configs = parse_ini_file(WPATH . "core/configs.ini");
 //$_SESSION['cPanelUrl'] = $configs["cPanelUrl"];
 //$_SESSION['cPuser'] = $configs["cPuser"];
 //$_SESSION['cPpass'] = $configs["cPpass"];

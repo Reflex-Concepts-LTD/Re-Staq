@@ -14,6 +14,7 @@ $staqpesa_packages = $system_administration->getAllStaqpesaPackages();
             <div class="col-lg-12 col-md-12 col-sm-12">
                 <div class="contact-text">
                     <p>Just like you, we are also flexible. Staqpesa is charged on a monthly, quarterly or annual basis, depending on your preferences. <br />
+                        We have local bases in Kenya, Uganda, Ethiopia, South Africa and Nigeria. More countries are also coming on board with time.<br />
                         Please select your country of operation below.</p>
                 </div>
 

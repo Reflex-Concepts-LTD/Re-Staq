@@ -31,9 +31,9 @@ if (isset($_GET['contact_country_code'])) {
     <!-- ***** Page Top End ***** -->
 
     <div class="col-lg-12 col-md-12 col-sm-12">
-        <div class="contact-text">
-            <br />
-            <p>Please select your country of operation below.</p>
+        <div class="contact-text">            
+            <p>We have local bases in Kenya, Uganda, Ethiopia, South Africa and Nigeria. More countries are also coming on board with time.<br />
+            Please select your country of operation below.</p>
         </div>
 
         <?php

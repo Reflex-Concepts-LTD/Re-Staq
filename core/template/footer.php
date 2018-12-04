@@ -22,7 +22,7 @@
             <div class="col-lg-2 col-md-4 col-sm-6 col-6">
                 <h5>Explore Solutions</h5>
                 <ul class="footer-nav">
-                    <li><a href="?app_excite"><i class="fa fa-angle-right"></i><span>Chamaa</span></a></li>
+                    <li><a href="?app_excite"><i class="fa fa-angle-right"></i><span>Investment Group</span></a></li>
                     <li><a href="?app_metro"><i class="fa fa-angle-right"></i><span>Micro-Finance</span></a></li>
                     <li><a href="?app_staqpro"><i class="fa fa-angle-right"></i><span>Sacco</span></a></li>
                     <li><a href="?institution_self_registration"><i class="fa fa-angle-right"></i><span>Subscribe</span></a></li>
