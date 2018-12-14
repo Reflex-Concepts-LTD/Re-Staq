@@ -9,8 +9,8 @@ date_default_timezone_set("Africa/Nairobi");
         <meta charset="UTF-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1">
-        <meta name="description" content="staqpesa is an integrated, transparent, accounting solution for chamaas." />
-        <meta name="keywords" content="staqpesa, chamaa, accounting, transparency" />
+        <meta name="description" content="staqpesa is an integrated, transparent, accounting solution for savings/investment groups." />
+        <meta name="keywords" content="staqpesa, chamaa, savings/investment group, accounting, transparency" />
         <meta name="author" content="Reflex Concepts [KE,UG] LTD"/>
         <!-- Favicon -->
         <link rel="icon" type="image/png" href="images/favicon.png" />

@@ -11,9 +11,11 @@ if (!empty($_POST)) {
         $success = $system_administration->execute();
         if ($success['status'] == 200) {
             $_SESSION['add_success'] = true;
+            $_SESSION['created_institution_id'] = $success['message'];
             $_SESSION['feedback_message'] = "<strong>Successful:</strong> Thank you for showing interest to use Staqpesa. We are reviewing your application and you shall be "
                     . "notified accordingly via email/phone once the review is finalised.";
             unset($_POST);
+            App::redirectTo("?business_setup");
         } else {
             $_SESSION['add_fail'] = true;
             $_SESSION['feedback_message'] = "<strong>Error!</strong> There was an error creating the institution. The error message is: " . $success['message'] . ". Please check and try again.";
@@ -51,18 +53,20 @@ if (!empty($_POST)) {
                 <div class="col-lg-4 col-md-6 col-sm-12">
                     <h5 class="mbottom-30">Add Institution</h5>
                     <div class="contact-text">
-                        <p>We are very eager to talk to you.</p>
-                        <p>Talk to us on how to mould you future in your business.</p>                        
+                        <p>Are you a Savings/Investments Group, MFI or Sacco? Let's partner in moulding your business' future.<br />                        
+                            We are very eager to talk to you.</p>
                         <p>We have local bases in Kenya, Uganda, Ethiopia, South Africa and Nigeria. More countries are also coming on board with time.</p>
                     </div>
                 </div>
                 <!-- ***** Contact Text End ***** -->
                 <?php
-                if (isset($_SESSION['add_success'])) {
-                    echo $_SESSION['feedback_message'];
-                    unset($_SESSION['feedback_message']);
-                    unset($_SESSION['add_success']);
-                } else if (isset($_SESSION['add_fail'])) {
+//                if (isset($_SESSION['add_success'])) {
+//                    echo $_SESSION['feedback_message'];
+//                    unset($_SESSION['feedback_message']);
+//                    unset($_SESSION['add_success']);
+//                } else 
+
+                if (isset($_SESSION['add_fail'])) {
                     echo $_SESSION['feedback_message'];
                     unset($_SESSION['feedback_message']);
                     unset($_SESSION['add_fail']);
