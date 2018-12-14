@@ -1,10 +1,29 @@
 <?php
 require_once WPATH . "modules/classes/System_Administration.php";
 $system_administration = new System_Administration();
+if (isset($_GET['institution'])) {
+    $_SESSION['created_institution_id'] = $_GET['institution'];
+}
 
 if (!empty($_POST)) {
-
-    App::redirectTo("?business_setup_branches");
+    $_SESSION['setup_our_branches'] = $_POST['setup_branches'];
+    $_SESSION['setup_our_positions'] = $_POST['setup_positions'];
+    $_SESSION['setup_our_loans'] = $_POST['setup_loan_types'];
+    
+    if ($_SESSION['setup_our_branches'] == 'YES') {
+        App::redirectTo("?business_setup_branches");
+    } else {
+        if ($_SESSION['setup_our_positions'] == 'YES') {
+            App::redirectTo("?business_setup_positions");
+        } else {
+            if ($_SESSION['setup_our_loans'] == 'YES') {
+                App::redirectTo("?business_setup_loan_types");
+            } else {                
+                $system_administration->updateInstitutionSetupStatus();
+                App::redirectTo("{$_SESSION['admin_url']}/?home&institution={$_SESSION['created_institution_id']}");
+            }
+        }
+    }
 }
 ?>
 
@@ -36,17 +55,17 @@ if (!empty($_POST)) {
                 <div class="col-lg-4 col-md-6 col-sm-12">
                     <h5 class="mbottom-30">Environment Setup</h5>
                     <div class="contact-text">
-                        <p>Some quick setup to personalize your experience. Let's get started......</p>
+                        <p>Before logging into your area, let's do some quick setup to personalize your experience. Let's get started......</p>
                     </div>
                 </div>
 
-                <?php
-                if (isset($_SESSION['add_success'])) {
-                    echo $_SESSION['feedback_message'];
-                    unset($_SESSION['feedback_message']);
-                    unset($_SESSION['add_success']);
-                }
-                ?>
+<?php
+if (isset($_SESSION['add_success'])) {
+    echo $_SESSION['feedback_message'];
+    unset($_SESSION['feedback_message']);
+    unset($_SESSION['add_success']);
+}
+?>
                 <div class="col-lg-8 col-md-6 col-sm-12">
                     <form class="contact-form" method="POST">
                         <input type="hidden" name="action" value="business_setup"/>
@@ -96,4 +115,6 @@ if (!empty($_POST)) {
         </div>
     </div>
 </section>
-
+<?php
+$system_administration->updateInstitution($_SESSION['created_institution_id'], 'accept_approval', 'AUTO-APPROVED BY SYSTEM');
+?>

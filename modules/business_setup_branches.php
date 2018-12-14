@@ -34,8 +34,15 @@ if (!empty($_POST)) {
 
         App::redirectTo("?business_setup_branches");
     } else if ($_POST['action'] == "proceed") {
-
-        App::redirectTo("?business_setup_positions");
+        if ($_SESSION['setup_our_positions'] == 'YES') {
+            App::redirectTo("?business_setup_positions");
+        } else {
+            if ($_SESSION['setup_our_loans'] == 'YES') {
+                App::redirectTo("?business_setup_loan_types");
+            } else {
+                App::redirectTo("{$_SESSION['admin_url']}/?home&institution={$_SESSION['created_institution_id']}");
+            }
+        }
     }
 }
 ?>

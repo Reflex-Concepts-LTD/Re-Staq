@@ -32,6 +32,9 @@ else if (is_menu_set('dashboard') != "") {
 } else if (is_menu_set('business_setup_loan_processing_fees') != "") {
     $currentPage = WPATH . "modules/business_setup_loan_processing_fees.php";
     set_title("staqpesa - Loan Processing Fees Setup");
+} else if (is_menu_set('business_setup_success') != "") {
+    $currentPage = WPATH . "modules/business_setup_success.php";
+    set_title("staqpesa - Business Setup Success");
 } else if (is_menu_set('about_us') != "") {
     $currentPage = WPATH . "modules/about_us.php";
     set_title("staqpesa - About Us");
