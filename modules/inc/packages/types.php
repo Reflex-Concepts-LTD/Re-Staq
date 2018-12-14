@@ -57,14 +57,14 @@ $staqpesa_packages = $system_administration->getAllStaqpesaPackages();
                                         <li>(144)</li>
                                     </ul>
                                     <div class="text">
-                                        Members : 1-20  <br />
+                                        <!--Members : 1-20  <br />-->
                                         Free SMS Package: <?php echo $data['sms_bundle']; ?>   <br />
                                         Available Modules: All Modules <br />
                                         Monthly Fee: <?php echo $_SESSION['package_country_details']['currency'] . " " . $data['dollar_monthly_fee'] * $_SESSION['package_country_details']['dollar_currency_factor']; ?> <br />
                                         Quarterly Fee: <?php echo $_SESSION['package_country_details']['currency'] . " " . $data['dollar_monthly_fee'] * $_SESSION['package_country_details']['dollar_currency_factor'] * 3; ?> <br />
                                         Annual Fee: <?php echo $_SESSION['package_country_details']['currency'] . " " . $data['dollar_monthly_fee'] * $_SESSION['package_country_details']['dollar_currency_factor'] * 12; ?>
                                     </div>
-                                    <a href="?app_excite" class="btn-primary-line">Package Details</a><br />
+                                    <!--<a href="?app_excite" class="btn-primary-line">Package Details</a><br />-->
                                     <a href="?institution_self_registration" class="btn-primary-line">Subscribe</a>
                                 </div>
                             </div>
