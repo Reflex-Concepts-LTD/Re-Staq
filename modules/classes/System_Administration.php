@@ -243,15 +243,15 @@ class System_Administration extends Database {
             if (is_null($currentGroup)) {
                 $currentGroup = $row['name'];
                 if (!empty($_POST['package']) && $_POST['package'] == $row['id']) {
-                    $html .= "<option value=\"{$row['id']}\" selected='selected'>{$row['name']}</option>";
+                    $html .= "<option value=\"{$row['id']}\" selected='selected'>{$row['name']}: {$row['description']}</option>";
                 } else {
-                    $html .= "<option value=\"{$row['id']}\">{$row['name']}</option>";
+                    $html .= "<option value=\"{$row['id']}\">{$row['name']}: {$row['description']}</option>";
                 }
             } else {
                 if (!empty($_POST['package']) && $_POST['package'] == $row['id']) {
-                    $html .= "<option value=\"{$row['id']}\" selected='selected'>{$row['name']}</option>";
+                    $html .= "<option value=\"{$row['id']}\" selected='selected'>{$row['name']}: {$row['description']}</option>";
                 } else {
-                    $html .= "<option value=\"{$row['id']}\">{$row['name']}</option>";
+                    $html .= "<option value=\"{$row['id']}\">{$row['name']}: {$row['description']}</option>";
                 }
             }
         }
